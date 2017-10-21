@@ -17,7 +17,47 @@ class AdminDashboard extends React.Component {
 						</div>
 					</div>
 				</section>
-				<p style={{paddingTop:"20px"}}/>
+				<div className="card">
+					<header className="card-header">
+						<p className="card-header-title">
+							Event Search
+						</p>
+						<a href="#" className="card-header-icon" aria-label="more options">
+                  			<span className="icon">
+                    			<i className="fa fa-angle-down" aria-hidden="true"/>
+                  			</span>
+						</a>
+					</header>
+					<div className="card-content">
+						<div className="content">
+							<div className="control has-icons-left has-icons-right">
+								<input className="input is-large" type="text" placeholder=""/>
+								<span className="icon is-medium is-left"><i className="fa fa-search"/></span>
+								<span className="icon is-medium is-right"><i className="fa fa-check"/></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="card">
+					<header className="card-header">
+						<p className="card-header-title">
+							User Search
+						</p>
+						<a href="#" className="card-header-icon" aria-label="more options">
+							<span className="icon"><i className="fa fa-angle-down" aria-hidden="true"/></span>
+						</a>
+					</header>
+					<div className="card-content">
+						<div className="content">
+							<div className="control has-icons-left has-icons-right">
+								<input className="input is-large" type="text" placeholder=""/>
+								<span className="icon is-medium is-left"><i className="fa fa-search"/></span>
+								<span className="icon is-medium is-right"><i className="fa fa-check"/></span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p style={{paddingTop: "20px"}}/>
 				<div className="w3-container">
 					<section className="info-tiles">
 						<div className="tile is-ancestor has-text-centered">
