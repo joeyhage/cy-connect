@@ -1,10 +1,18 @@
 const React = require('react');
 
-class Login extends React.Component {
+class Registration extends React.Component {
 
 	render() {
 		return (
+      
+      
       <div>
+        <div className="field">
+          <label className="label">Name</label>
+          <div className="control">
+            <input class="input is-success" type="text" placeholder="John Doe" value=""/>
+          </div>
+        </div>
         <div className="field">
           <label className="label">Email</label>
           <div className="control has-icons-left has-icons-right">
@@ -34,7 +42,10 @@ class Login extends React.Component {
           <div className="control">
             <div className="select">
               <select>
-                <option>Officer</option>
+                <option>President</option>
+                <option>Vice-President</option>
+                <option>Secretary</option>
+                <option>Treasurer</option>
                 <option>Student Member</option>
               </select>
             </div>
@@ -55,4 +66,4 @@ class Login extends React.Component {
 	}
 }
 
-module.exports = Login;
+module.exports = Registration;

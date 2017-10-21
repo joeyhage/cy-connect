@@ -3,6 +3,8 @@ const reactViews = require('express-react-views');
 
 const app = express();
 
+const authorized = true;
+
 /**
  * Express configuration.
  */
@@ -14,13 +16,42 @@ app.set('view engine', 'js');
 app.engine('js', reactViews.createEngine());
 
 app.get('/*', (req, res) => {
-	res.render(
-  		'App',
-  		{
-  			path: req.path
-  		}
-	);
+  if (authorized || req.path === '/login') {
+    const page = determinePage(req.path);
+    const pageProps = getPageProps(page);
+    res.render(
+        'App',
+        {
+          path: req.path,
+          page: page,
+          pageProps
+        }
+    );
+  } else {
+    res.redirect('/login');
+  }
 });
+
+const determinePage = path => {
+  switch(path) {
+    case '/':
+      return 'Home';
+    case '/stuorgs':
+      return 'StuOrgs';
+    case '/events':
+      return 'Events';
+    case '/profile':
+      return 'Profile';
+    case '/login':
+      return 'Login';
+   }
+};
+
+const getPageProps = page => {
+  switch(page) {
+    
+  }
+};
 
 /**
  * Start Express server.
