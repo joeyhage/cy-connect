@@ -2,56 +2,62 @@ const React = require('react');
 
 class Login extends React.Component {
 
+	constructor(props) {
+		super(props);
+
+		this.state = {
+			netid: '',
+			password: ''
+		};
+		this.handleChange = this.handleChange.bind(this);
+	}
+
 	render() {
 		return (
-      <div>
-        <div className="field">
-          <label className="label">Email</label>
-          <div className="control has-icons-left has-icons-right">
-            <input className="input is-danger" type="email" placeholder="example@email.com" value=""/>
-            <span className="icon is-small is-left">
-              <i className="fa fa-envelope"></i>
-            </span>
-            <span className="icon is-small is-right">
-              <i className="fa fa-warning"></i>
-            </span>
-          </div>
-          <p className="help is-danger">This email is invalid</p>
-        </div>
+			<div className='container'>
+				<div className="columns is-mobile">
+					<div className="column is-4-desktop is-2-tablet is-1-mobile"/>
+					<div className="column is-4-desktop is-8-tablet is-10-mobile box" style={{marginTop:'20vh'}}>
+						<h1 style={{textAlign: 'center'}}>Login</h1>
+						<form id="login-form">
+							<div className="field">
+								<label className="label" aria-label>Net-ID</label>
+								<div className="control has-icons-left">
+									<input className="input" id="netid" type="text" placeholder="Net-ID"
+										   pattern="[a-z0-9]{3,8}" name="netid"
+										   title="Your Net-ID is 3 to 8 characters long and consists of lowercase letters (and optionally numeric digits)."
+										   value={this.state.netid} onChange={this.handleChange}/>
+									<span className="icon is-small is-left"><i className="fa fa-user-o"/></span>
+								</div>
+							</div>
 
-        <div className="field">
-          <p className="control has-icons-left">
-            <input className="input" type="password" placeholder="Password"/>
-            <span className="icon is-small is-left">
-              <i className="fa fa-lock"></i>
-            </span>
-          </p>
-        </div>
+							<div className="field">
+								<label className="label">Password</label>
+								<div className="control has-icons-left">
+									<input className="input" id="password" type="password" placeholder="Password"
+										   value={this.state.password} onChange={this.handleChange}/>
+									<span className="icon is-small is-left"><i className="fa fa-lock"/></span>
+								</div>
+							</div>
 
-
-        <div className="field">
-          <label className="label">Position</label>
-          <div className="control">
-            <div className="select">
-              <select>
-                <option>Officer</option>
-                <option>Student Member</option>
-              </select>
-            </div>
-          </div>
-        </div>
-
-
-        <div className="field is-grouped">
-            <div className="control">
-              <button className="button is-link">Submit</button>
-            </div>
-            <div className="control">
-              <button className="button is-text">Cancel</button>
-            </div>
-        </div>
-      </div>
+							<div className="field is-grouped">
+								<div className="control">
+									<button type="submit" className="button is-link">Login</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
 		);
+	}
+
+	handleChange({target}) {
+		if (target.id === 'netid') {
+			this.setState({netid: target.value});
+		} else {
+			this.setState({password: target.value});
+		}
 	}
 }
 

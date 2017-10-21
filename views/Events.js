@@ -5,9 +5,7 @@ class Events extends React.Component {
 	render() {
 		return (
 			<div>
-       <div className="w3-container">
 				<h1>Upcoming Events</h1>
-       </div>
 				<div>
 					<div className="w3-row w3-container">
 						<div className="w3-row">

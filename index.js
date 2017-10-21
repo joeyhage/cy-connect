@@ -1,14 +1,16 @@
 const express = require('express');
+const bodyParser = require('body-parser');
 const reactViews = require('express-react-views');
 
 const app = express();
 
-const authorized = true;
+let authorized = false;
 
 /**
  * Express configuration.
  */
 app.use(express.static(__dirname + '/public'));
+app.use(bodyParser.json());
 
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
@@ -30,6 +32,11 @@ app.get('/*', (req, res) => {
   } else {
     res.redirect('/login');
   }
+});
+
+app.post('/authorize', (req, res) => {
+	authorized = req.body.netid;
+	res.sendStatus(200);
 });
 
 const determinePage = path => {

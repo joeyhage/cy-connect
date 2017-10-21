@@ -1,31 +1,14 @@
-/* Style the tab buttons */
-.tablink {
-    background-color: #555;
-    color: white;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    font-size: 17px;
-    width: 25%;
+.navbar-dropdown>.navbar-item:hover, .navbar-dropdown>a.navbar-item.is-active, .navbar-dropdown>a.navbar-item.is-active:hover {
+    color: #000 !important;
+    background-color: #FFF !important;
 }
-
-/* Change background color of buttons on hover */
-.tablink:hover {
-    background-color: #777;
+a.navbar-item, a.navbar-link {
+    color: #FFF !important;
 }
-
-/* Set default styles for tab content */
-.tabcontent {
-    color: white;
-    display: none;
-    padding: 50px;
-    text-align: center;
+a.navbar-item:hover, a.navbar-item:active, a.navbar-item:active:hover, a.navbar-item.is-active,
+a.navbar-item.is-active:hover, a.navbar-link:hover, a.navbar-link:active, a.navbar-link:active:hover{
+    color: #000 !important;
 }
-
-/* Style each tab content individually */
-#London {background-color:red;}
-#Paris {background-color:green;}
-#Tokyo {background-color:blue;}
-#Oslo {background-color:orange;}
+.navbar-dropdown.is-right {
+    background-color: gray !important;
+}
