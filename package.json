@@ -1,0 +1,13 @@
+{
+  "name": "hackisu-fall2017",
+  "version": "1.0.0",
+  "description": "Iowa State Student Organization Check-In System",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
