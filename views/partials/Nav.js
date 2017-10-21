@@ -35,7 +35,7 @@ class Nav extends React.Component {
 								<a className="navbar-link">
 									User
 								</a>
-								<div className="navbar-dropdown is-right" style={{backgroundColor:'#ffd83d'}}>
+								<div className="navbar-dropdown is-right">
 									<a href="/profile" className={`navbar-item ${this.isActivePage('/profile')}`}>
 										Profile
 									</a>

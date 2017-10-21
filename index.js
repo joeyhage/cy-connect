@@ -51,6 +51,12 @@ const determinePage = path => {
       return 'Profile';
     case '/login':
       return 'Login';
+    case '/registration':
+      return 'Registration';
+    case '/checkin':
+      return 'CheckIn';
+    case '/admin-dashboard':
+      return 'AdminDashboard';
    }
 };
 
