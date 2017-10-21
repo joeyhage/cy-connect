@@ -167,7 +167,7 @@
       "basename": "Home"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\n\nvar Home = function (_React$Component) {\n  _inherits(Home, _React$Component);\n\n  function Home() {\n    _classCallCheck(this, Home);\n\n    return _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));\n  }\n\n  _createClass(Home, [{\n    key: 'render',\n    value: function render() {\n      return React.createElement(\n        'h1',\n        null,\n        'Hi'\n      );\n    }\n  }]);\n\n  return Home;\n}(React.Component);\n\nmodule.exports = Home;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhvbWUuanMiXSwibmFtZXMiOlsiUmVhY3QiLCJyZXF1aXJlIiwiSG9tZSIsIkNvbXBvbmVudCIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQSxJQUFNQSxRQUFRQyxRQUFRLE9BQVIsQ0FBZDs7SUFFTUMsSTs7Ozs7Ozs7Ozs7NkJBRUs7QUFDUCxhQUNFO0FBQUE7QUFBQTtBQUFBO0FBQUEsT0FERjtBQUdEOzs7O0VBTmdCRixNQUFNRyxTOztBQVN6QkMsT0FBT0MsT0FBUCxHQUFpQkgsSUFBakIiLCJmaWxlIjoiSG9tZS5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3ZpZXdzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5jbGFzcyBIb21lIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgXG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGgxPkhpPC9oMT5cbiAgICApO1xuICB9XG59XG5cbm1vZHVsZS5leHBvcnRzID0gSG9tZTsiXX0=",
+    "code": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\n\nvar Home = function (_React$Component) {\n\t_inherits(Home, _React$Component);\n\n\tfunction Home() {\n\t\t_classCallCheck(this, Home);\n\n\t\treturn _possibleConstructorReturn(this, (Home.__proto__ || Object.getPrototypeOf(Home)).apply(this, arguments));\n\t}\n\n\t_createClass(Home, [{\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\treturn React.createElement(\n\t\t\t\t'h1',\n\t\t\t\tnull,\n\t\t\t\t'Home'\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn Home;\n}(React.Component);\n\nmodule.exports = Home;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhvbWUuanMiXSwibmFtZXMiOlsiUmVhY3QiLCJyZXF1aXJlIiwiSG9tZSIsIkNvbXBvbmVudCIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQSxJQUFNQSxRQUFRQyxRQUFRLE9BQVIsQ0FBZDs7SUFFTUMsSTs7Ozs7Ozs7Ozs7MkJBRUk7QUFDUixVQUNDO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFERDtBQUdBOzs7O0VBTmlCRixNQUFNRyxTOztBQVN6QkMsT0FBT0MsT0FBUCxHQUFpQkgsSUFBakIiLCJmaWxlIjoiSG9tZS5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3ZpZXdzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5jbGFzcyBIb21lIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblxuXHRyZW5kZXIoKSB7XG5cdFx0cmV0dXJuIChcblx0XHRcdDxoMT5Ib21lPC9oMT5cblx0XHQpO1xuXHR9XG59XG5cbm1vZHVsZS5leHBvcnRzID0gSG9tZTsiXX0=",
     "ast": null,
     "map": {
       "version": 3,
@@ -182,14 +182,14 @@
         "module",
         "exports"
       ],
-      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;;IAEMC,I;;;;;;;;;;;6BAEK;AACP,aACE;AAAA;AAAA;AAAA;AAAA,OADF;AAGD;;;;EANgBF,MAAMG,S;;AASzBC,OAAOC,OAAP,GAAiBH,IAAjB",
+      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;;IAEMC,I;;;;;;;;;;;2BAEI;AACR,UACC;AAAA;AAAA;AAAA;AAAA,IADD;AAGA;;;;EANiBF,MAAMG,S;;AASzBC,OAAOC,OAAP,GAAiBH,IAAjB",
       "file": "Home.js",
       "sourceRoot": "/app/views",
       "sourcesContent": [
-        "const React = require('react');\n\nclass Home extends React.Component {\n  \n  render() {\n    return (\n      <h1>Hi</h1>\n    );\n  }\n}\n\nmodule.exports = Home;"
+        "const React = require('react');\n\nclass Home extends React.Component {\n\n\trender() {\n\t\treturn (\n\t\t\t<h1>Home</h1>\n\t\t);\n\t}\n}\n\nmodule.exports = Home;"
       ]
     },
-    "mtime": 1508594126269
+    "mtime": 1508608389975
   },
   "{\"filename\":\"/app/views/App.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/views\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
     "metadata": {
@@ -359,7 +359,7 @@
       "basename": "App"
     },
     "ignored": false,
-    "code": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\nvar Nav = require('./partials/Nav');\n\nvar App = function (_React$Component) {\n  _inherits(App, _React$Component);\n\n  function App() {\n    _classCallCheck(this, App);\n\n    return _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n  }\n\n  _createClass(App, [{\n    key: 'render',\n    value: function render() {\n      return React.createElement(\n        'html',\n        null,\n        React.createElement(\n          'head',\n          null,\n          React.createElement(\n            'title',\n            null,\n            'ISU StuOrg Management - Home'\n          ),\n          React.createElement('meta', { name: 'description', content: 'ISU StuOrg Check-In' }),\n          React.createElement('link', { id: 'favicon', rel: 'icon', href: 'https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FUntitled.png?1508555216206', type: 'image/x-icon' }),\n          React.createElement('meta', { charset: 'utf-8' }),\n          React.createElement('meta', { 'http-equiv': 'X-UA-Compatible', content: 'IE=edge' }),\n          React.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }),\n          React.createElement('link', { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' }),\n          React.createElement('link', { rel: 'stylesheet', href: 'https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2Fbulma.css?1508558261423' }),\n          React.createElement('link', { rel: 'stylesheet', href: '../public/stylesheets/main.css' })\n        ),\n        React.createElement(\n          'body',\n          null,\n          React.createElement(Nav, null),\n          this.props.children\n        )\n      );\n    }\n  }]);\n\n  return App;\n}(React.Component);\n\nmodule.exports = App;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsInJlcXVpcmUiLCJOYXYiLCJBcHAiLCJwcm9wcyIsImNoaWxkcmVuIiwiQ29tcG9uZW50IiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBLElBQU1BLFFBQVFDLFFBQVEsT0FBUixDQUFkO0FBQ0EsSUFBTUMsTUFBTUQsUUFBUSxnQkFBUixDQUFaOztJQUVNRSxHOzs7Ozs7Ozs7Ozs2QkFFSztBQUNQLGFBQ0U7QUFBQTtBQUFBO0FBQ0E7QUFBQTtBQUFBO0FBQ0M7QUFBQTtBQUFBO0FBQUE7QUFBQSxXQUREO0FBRUksd0NBQU0sTUFBSyxhQUFYLEVBQXlCLFNBQVEscUJBQWpDLEdBRko7QUFHSSx3Q0FBTSxJQUFHLFNBQVQsRUFBbUIsS0FBSSxNQUF2QixFQUE4QixNQUFLLDBGQUFuQyxFQUE4SCxNQUFLLGNBQW5JLEdBSEo7QUFJSSx3Q0FBTSxTQUFRLE9BQWQsR0FKSjtBQUtJLHdDQUFNLGNBQVcsaUJBQWpCLEVBQW1DLFNBQVEsU0FBM0MsR0FMSjtBQU1JLHdDQUFNLE1BQUssVUFBWCxFQUFzQixTQUFRLHFDQUE5QixHQU5KO0FBT0ksd0NBQU0sS0FBSSxZQUFWLEVBQXVCLE1BQUssNkVBQTVCLEdBUEo7QUFRSSx3Q0FBTSxLQUFJLFlBQVYsRUFBdUIsTUFBSyx1RkFBNUIsR0FSSjtBQVNJLHdDQUFNLEtBQUksWUFBVixFQUF1QixNQUFLLGdDQUE1QjtBQVRKLFNBREE7QUFZQTtBQUFBO0FBQUE7QUFDRSw4QkFBQyxHQUFELE9BREY7QUFFRyxlQUFLQyxLQUFMLENBQVdDO0FBRmQ7QUFaQSxPQURGO0FBbUJEOzs7O0VBdEJlTCxNQUFNTSxTOztBQXlCeEJDLE9BQU9DLE9BQVAsR0FBaUJMLEdBQWpCIiwiZmlsZSI6IkFwcC5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3ZpZXdzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuY29uc3QgTmF2ID0gcmVxdWlyZSgnLi9wYXJ0aWFscy9OYXYnKTtcblxuY2xhc3MgQXBwIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgXG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPGh0bWw+XG4gICAgICA8aGVhZD5cbiAgICAgICA8dGl0bGU+SVNVIFN0dU9yZyBNYW5hZ2VtZW50IC0gSG9tZTwvdGl0bGU+XG4gICAgICAgICAgPG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD1cIklTVSBTdHVPcmcgQ2hlY2stSW5cIi8+XG4gICAgICAgICAgPGxpbmsgaWQ9XCJmYXZpY29uXCIgcmVsPVwiaWNvblwiIGhyZWY9XCJodHRwczovL2Nkbi5nbGl0Y2guY29tL2Q3Y2FhNmUzLTcxNTItNDBmZi05Y2NlLWZkOTQ2MzY2MzFiYyUyRlVudGl0bGVkLnBuZz8xNTA4NTU1MjE2MjA2XCIgdHlwZT1cImltYWdlL3gtaWNvblwiLz5cbiAgICAgICAgICA8bWV0YSBjaGFyc2V0PVwidXRmLThcIi8+XG4gICAgICAgICAgPG1ldGEgaHR0cC1lcXVpdj1cIlgtVUEtQ29tcGF0aWJsZVwiIGNvbnRlbnQ9XCJJRT1lZGdlXCIvPlxuICAgICAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGgsIGluaXRpYWwtc2NhbGU9MVwiLz5cbiAgICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vbWF4Y2RuLmJvb3RzdHJhcGNkbi5jb20vZm9udC1hd2Vzb21lLzQuNy4wL2Nzcy9mb250LWF3ZXNvbWUubWluLmNzc1wiLz5cbiAgICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vY2RuLmdsaXRjaC5jb20vZDdjYWE2ZTMtNzE1Mi00MGZmLTljY2UtZmQ5NDYzNjYzMWJjJTJGYnVsbWEuY3NzPzE1MDg1NTgyNjE0MjNcIi8+XG4gICAgICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCIuLi9wdWJsaWMvc3R5bGVzaGVldHMvbWFpbi5jc3NcIi8+XG4gICAgICA8L2hlYWQ+XG4gICAgICA8Ym9keT5cbiAgICAgICAgPE5hdi8+XG4gICAgICAgIHt0aGlzLnByb3BzLmNoaWxkcmVufVxuICAgICAgPC9ib2R5PlxuICAgICAgPC9odG1sPlxuICAgICk7XG4gIH1cbn1cblxubW9kdWxlLmV4cG9ydHMgPSBBcHA7Il19",
+    "code": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\nvar Nav = require('./partials/Nav');\nvar Home = require('./Home');\nvar Events = require('./Events');\nvar StuOrgs = require('./StuOrgs');\nvar Profile = require('./Profile');\nvar Login = require('./Login');\n\nvar App = function (_React$Component) {\n\t_inherits(App, _React$Component);\n\n\tfunction App() {\n\t\t_classCallCheck(this, App);\n\n\t\treturn _possibleConstructorReturn(this, (App.__proto__ || Object.getPrototypeOf(App)).apply(this, arguments));\n\t}\n\n\t_createClass(App, [{\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\treturn React.createElement(\n\t\t\t\t'html',\n\t\t\t\tnull,\n\t\t\t\tReact.createElement(\n\t\t\t\t\t'head',\n\t\t\t\t\tnull,\n\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t'title',\n\t\t\t\t\t\tnull,\n\t\t\t\t\t\tthis.props.page,\n\t\t\t\t\t\t' - ISU StuOrgs'\n\t\t\t\t\t),\n\t\t\t\t\tReact.createElement('meta', { name: 'description', content: 'ISU StuOrg Check-In' }),\n\t\t\t\t\tReact.createElement('link', { id: 'favicon', rel: 'icon', href: 'https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FUntitled.png?1508555216206',\n\t\t\t\t\t\ttype: 'image/x-icon' }),\n\t\t\t\t\tReact.createElement('meta', { charSet: 'utf-8' }),\n\t\t\t\t\tReact.createElement('meta', { httpEquiv: 'X-UA-Compatible', content: 'IE=edge' }),\n\t\t\t\t\tReact.createElement('meta', { name: 'viewport', content: 'width=device-width, initial-scale=1' }),\n\t\t\t\t\tReact.createElement('link', { rel: 'stylesheet', href: 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' }),\n\t\t\t\t\tReact.createElement('link', { rel: 'stylesheet', href: 'https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2Fbulma.css?1508558261423' }),\n\t\t\t\t\tReact.createElement('link', { rel: 'stylesheet', href: 'https://www.w3schools.com/w3css/4/w3.css' })\n\t\t\t\t),\n\t\t\t\tReact.createElement(\n\t\t\t\t\t'body',\n\t\t\t\t\tnull,\n\t\t\t\t\tReact.createElement(Nav, { path: this.props.path }),\n\t\t\t\t\tthis.props.page === 'Home' && React.createElement(Home, { pageProps: this.props.pageProps }),\n\t\t\t\t\tthis.props.page === 'StuOrgs' && React.createElement(StuOrgs, { pageProps: this.props.pageProps }),\n\t\t\t\t\tthis.props.page === 'Events' && React.createElement(Events, { pageProps: this.props.pageProps }),\n\t\t\t\t\tthis.props.page === 'Profile' && React.createElement(Profile, { pageProps: this.props.pageProps }),\n\t\t\t\t\tthis.props.page === 'Login' && React.createElement(Login, { pageProps: this.props.pageProps }),\n\t\t\t\t\tthis.props.page === 'Registration' && React.createElement(Registration, { pageProps: this.props.pageProps })\n\t\t\t\t)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn App;\n}(React.Component);\n\nmodule.exports = App;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsInJlcXVpcmUiLCJOYXYiLCJIb21lIiwiRXZlbnRzIiwiU3R1T3JncyIsIlByb2ZpbGUiLCJMb2dpbiIsIkFwcCIsInByb3BzIiwicGFnZSIsInBhdGgiLCJwYWdlUHJvcHMiLCJDb21wb25lbnQiLCJtb2R1bGUiLCJleHBvcnRzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUEsSUFBTUEsUUFBUUMsUUFBUSxPQUFSLENBQWQ7QUFDQSxJQUFNQyxNQUFNRCxRQUFRLGdCQUFSLENBQVo7QUFDQSxJQUFNRSxPQUFPRixRQUFRLFFBQVIsQ0FBYjtBQUNBLElBQU1HLFNBQVNILFFBQVEsVUFBUixDQUFmO0FBQ0EsSUFBTUksVUFBVUosUUFBUSxXQUFSLENBQWhCO0FBQ0EsSUFBTUssVUFBVUwsUUFBUSxXQUFSLENBQWhCO0FBQ0EsSUFBTU0sUUFBUU4sUUFBUSxTQUFSLENBQWQ7O0lBRU1PLEc7Ozs7Ozs7Ozs7OzJCQUVJO0FBQ1IsVUFDQztBQUFBO0FBQUE7QUFDQTtBQUFBO0FBQUE7QUFDQztBQUFBO0FBQUE7QUFBUSxXQUFLQyxLQUFMLENBQVdDLElBQW5CO0FBQUE7QUFBQSxNQUREO0FBRUMsbUNBQU0sTUFBSyxhQUFYLEVBQXlCLFNBQVEscUJBQWpDLEdBRkQ7QUFHQyxtQ0FBTSxJQUFHLFNBQVQsRUFBbUIsS0FBSSxNQUF2QixFQUE4QixNQUFLLDBGQUFuQztBQUNHLFlBQUssY0FEUixHQUhEO0FBS0MsbUNBQU0sU0FBUSxPQUFkLEdBTEQ7QUFNQyxtQ0FBTSxXQUFVLGlCQUFoQixFQUFrQyxTQUFRLFNBQTFDLEdBTkQ7QUFPQyxtQ0FBTSxNQUFLLFVBQVgsRUFBc0IsU0FBUSxxQ0FBOUIsR0FQRDtBQVFDLG1DQUFNLEtBQUksWUFBVixFQUF1QixNQUFLLDZFQUE1QixHQVJEO0FBU0MsbUNBQU0sS0FBSSxZQUFWLEVBQXVCLE1BQUssdUZBQTVCLEdBVEQ7QUFVSyxtQ0FBTSxLQUFJLFlBQVYsRUFBdUIsTUFBSywwQ0FBNUI7QUFWTCxLQURBO0FBY0E7QUFBQTtBQUFBO0FBQ0MseUJBQUMsR0FBRCxJQUFLLE1BQU0sS0FBS0QsS0FBTCxDQUFXRSxJQUF0QixHQUREO0FBRUUsVUFBS0YsS0FBTCxDQUFXQyxJQUFYLEtBQW9CLE1BQXBCLElBQ0Esb0JBQUMsSUFBRCxJQUFNLFdBQVcsS0FBS0QsS0FBTCxDQUFXRyxTQUE1QixHQUhGO0FBS0UsVUFBS0gsS0FBTCxDQUFXQyxJQUFYLEtBQW9CLFNBQXBCLElBQ0Esb0JBQUMsT0FBRCxJQUFTLFdBQVcsS0FBS0QsS0FBTCxDQUFXRyxTQUEvQixHQU5GO0FBUUUsVUFBS0gsS0FBTCxDQUFXQyxJQUFYLEtBQW9CLFFBQXBCLElBQ0Esb0JBQUMsTUFBRCxJQUFRLFdBQVcsS0FBS0QsS0FBTCxDQUFXRyxTQUE5QixHQVRGO0FBV0UsVUFBS0gsS0FBTCxDQUFXQyxJQUFYLEtBQW9CLFNBQXBCLElBQ0Esb0JBQUMsT0FBRCxJQUFTLFdBQVcsS0FBS0QsS0FBTCxDQUFXRyxTQUEvQixHQVpGO0FBY00sVUFBS0gsS0FBTCxDQUFXQyxJQUFYLEtBQW9CLE9BQXBCLElBQ0osb0JBQUMsS0FBRCxJQUFPLFdBQVcsS0FBS0QsS0FBTCxDQUFXRyxTQUE3QixHQWZGO0FBaUJNLFVBQUtILEtBQUwsQ0FBV0MsSUFBWCxLQUFvQixjQUFwQixJQUNKLG9CQUFDLFlBQUQsSUFBYyxXQUFXLEtBQUtELEtBQUwsQ0FBV0csU0FBcEM7QUFsQkY7QUFkQSxJQUREO0FBc0NBOzs7O0VBekNnQlosTUFBTWEsUzs7QUE0Q3hCQyxPQUFPQyxPQUFQLEdBQWlCUCxHQUFqQiIsImZpbGUiOiJBcHAuanMiLCJzb3VyY2VSb290IjoiL2FwcC92aWV3cyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcbmNvbnN0IE5hdiA9IHJlcXVpcmUoJy4vcGFydGlhbHMvTmF2Jyk7XG5jb25zdCBIb21lID0gcmVxdWlyZSgnLi9Ib21lJyk7XG5jb25zdCBFdmVudHMgPSByZXF1aXJlKCcuL0V2ZW50cycpO1xuY29uc3QgU3R1T3JncyA9IHJlcXVpcmUoJy4vU3R1T3JncycpO1xuY29uc3QgUHJvZmlsZSA9IHJlcXVpcmUoJy4vUHJvZmlsZScpO1xuY29uc3QgTG9naW4gPSByZXF1aXJlKCcuL0xvZ2luJyk7XG5cbmNsYXNzIEFwcCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudCB7XG5cdFxuXHRyZW5kZXIoKSB7XG5cdFx0cmV0dXJuIChcblx0XHRcdDxodG1sPlxuXHRcdFx0PGhlYWQ+XG5cdFx0XHRcdDx0aXRsZT57dGhpcy5wcm9wcy5wYWdlfSAtIElTVSBTdHVPcmdzPC90aXRsZT5cblx0XHRcdFx0PG1ldGEgbmFtZT1cImRlc2NyaXB0aW9uXCIgY29udGVudD1cIklTVSBTdHVPcmcgQ2hlY2stSW5cIi8+XG5cdFx0XHRcdDxsaW5rIGlkPVwiZmF2aWNvblwiIHJlbD1cImljb25cIiBocmVmPVwiaHR0cHM6Ly9jZG4uZ2xpdGNoLmNvbS9kN2NhYTZlMy03MTUyLTQwZmYtOWNjZS1mZDk0NjM2NjMxYmMlMkZVbnRpdGxlZC5wbmc/MTUwODU1NTIxNjIwNlwiIFxuXHRcdFx0XHRcdCAgdHlwZT1cImltYWdlL3gtaWNvblwiLz5cblx0XHRcdFx0PG1ldGEgY2hhclNldD1cInV0Zi04XCIvPlxuXHRcdFx0XHQ8bWV0YSBodHRwRXF1aXY9XCJYLVVBLUNvbXBhdGlibGVcIiBjb250ZW50PVwiSUU9ZWRnZVwiLz5cblx0XHRcdFx0PG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xXCIvPlxuXHRcdFx0XHQ8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vbWF4Y2RuLmJvb3RzdHJhcGNkbi5jb20vZm9udC1hd2Vzb21lLzQuNy4wL2Nzcy9mb250LWF3ZXNvbWUubWluLmNzc1wiLz5cblx0XHRcdFx0PGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJodHRwczovL2Nkbi5nbGl0Y2guY29tL2Q3Y2FhNmUzLTcxNTItNDBmZi05Y2NlLWZkOTQ2MzY2MzFiYyUyRmJ1bG1hLmNzcz8xNTA4NTU4MjYxNDIzXCIvPlxuICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vd3d3Lnczc2Nob29scy5jb20vdzNjc3MvNC93My5jc3NcIi8+XG5cblx0XHRcdDwvaGVhZD5cblx0XHRcdDxib2R5PlxuXHRcdFx0XHQ8TmF2IHBhdGg9e3RoaXMucHJvcHMucGF0aH0vPlxuXHRcdFx0XHR7dGhpcy5wcm9wcy5wYWdlID09PSAnSG9tZScgJiZcblx0XHRcdFx0XHQ8SG9tZSBwYWdlUHJvcHM9e3RoaXMucHJvcHMucGFnZVByb3BzfS8+XG5cdFx0XHRcdH1cblx0XHRcdFx0e3RoaXMucHJvcHMucGFnZSA9PT0gJ1N0dU9yZ3MnICYmXG5cdFx0XHRcdFx0PFN0dU9yZ3MgcGFnZVByb3BzPXt0aGlzLnByb3BzLnBhZ2VQcm9wc30vPlxuXHRcdFx0XHR9XG5cdFx0XHRcdHt0aGlzLnByb3BzLnBhZ2UgPT09ICdFdmVudHMnICYmXG5cdFx0XHRcdFx0PEV2ZW50cyBwYWdlUHJvcHM9e3RoaXMucHJvcHMucGFnZVByb3BzfS8+XG5cdFx0XHRcdH1cblx0XHRcdFx0e3RoaXMucHJvcHMucGFnZSA9PT0gJ1Byb2ZpbGUnICYmXG5cdFx0XHRcdFx0PFByb2ZpbGUgcGFnZVByb3BzPXt0aGlzLnByb3BzLnBhZ2VQcm9wc30vPlxuXHRcdFx0XHR9XG4gICAgICAgIHt0aGlzLnByb3BzLnBhZ2UgPT09ICdMb2dpbicgJiZcblx0XHRcdFx0XHQ8TG9naW4gcGFnZVByb3BzPXt0aGlzLnByb3BzLnBhZ2VQcm9wc30vPlxuXHRcdFx0XHR9XG4gICAgICAgIHt0aGlzLnByb3BzLnBhZ2UgPT09ICdSZWdpc3RyYXRpb24nICYmXG5cdFx0XHRcdFx0PFJlZ2lzdHJhdGlvbiBwYWdlUHJvcHM9e3RoaXMucHJvcHMucGFnZVByb3BzfS8+XG5cdFx0XHRcdH1cblx0XHRcdDwvYm9keT5cblx0XHRcdDwvaHRtbD5cblx0XHQpO1xuXHR9XG59XG5cbm1vZHVsZS5leHBvcnRzID0gQXBwOyJdfQ==",
     "ast": null,
     "map": {
       "version": 3,
@@ -370,21 +370,28 @@
         "React",
         "require",
         "Nav",
+        "Home",
+        "Events",
+        "StuOrgs",
+        "Profile",
+        "Login",
         "App",
         "props",
-        "children",
+        "page",
+        "path",
+        "pageProps",
         "Component",
         "module",
         "exports"
       ],
-      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;AACA,IAAMC,MAAMD,QAAQ,gBAAR,CAAZ;;IAEME,G;;;;;;;;;;;6BAEK;AACP,aACE;AAAA;AAAA;AACA;AAAA;AAAA;AACC;AAAA;AAAA;AAAA;AAAA,WADD;AAEI,wCAAM,MAAK,aAAX,EAAyB,SAAQ,qBAAjC,GAFJ;AAGI,wCAAM,IAAG,SAAT,EAAmB,KAAI,MAAvB,EAA8B,MAAK,0FAAnC,EAA8H,MAAK,cAAnI,GAHJ;AAII,wCAAM,SAAQ,OAAd,GAJJ;AAKI,wCAAM,cAAW,iBAAjB,EAAmC,SAAQ,SAA3C,GALJ;AAMI,wCAAM,MAAK,UAAX,EAAsB,SAAQ,qCAA9B,GANJ;AAOI,wCAAM,KAAI,YAAV,EAAuB,MAAK,6EAA5B,GAPJ;AAQI,wCAAM,KAAI,YAAV,EAAuB,MAAK,uFAA5B,GARJ;AASI,wCAAM,KAAI,YAAV,EAAuB,MAAK,gCAA5B;AATJ,SADA;AAYA;AAAA;AAAA;AACE,8BAAC,GAAD,OADF;AAEG,eAAKC,KAAL,CAAWC;AAFd;AAZA,OADF;AAmBD;;;;EAtBeL,MAAMM,S;;AAyBxBC,OAAOC,OAAP,GAAiBL,GAAjB",
+      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;AACA,IAAMC,MAAMD,QAAQ,gBAAR,CAAZ;AACA,IAAME,OAAOF,QAAQ,QAAR,CAAb;AACA,IAAMG,SAASH,QAAQ,UAAR,CAAf;AACA,IAAMI,UAAUJ,QAAQ,WAAR,CAAhB;AACA,IAAMK,UAAUL,QAAQ,WAAR,CAAhB;AACA,IAAMM,QAAQN,QAAQ,SAAR,CAAd;;IAEMO,G;;;;;;;;;;;2BAEI;AACR,UACC;AAAA;AAAA;AACA;AAAA;AAAA;AACC;AAAA;AAAA;AAAQ,WAAKC,KAAL,CAAWC,IAAnB;AAAA;AAAA,MADD;AAEC,mCAAM,MAAK,aAAX,EAAyB,SAAQ,qBAAjC,GAFD;AAGC,mCAAM,IAAG,SAAT,EAAmB,KAAI,MAAvB,EAA8B,MAAK,0FAAnC;AACG,YAAK,cADR,GAHD;AAKC,mCAAM,SAAQ,OAAd,GALD;AAMC,mCAAM,WAAU,iBAAhB,EAAkC,SAAQ,SAA1C,GAND;AAOC,mCAAM,MAAK,UAAX,EAAsB,SAAQ,qCAA9B,GAPD;AAQC,mCAAM,KAAI,YAAV,EAAuB,MAAK,6EAA5B,GARD;AASC,mCAAM,KAAI,YAAV,EAAuB,MAAK,uFAA5B,GATD;AAUK,mCAAM,KAAI,YAAV,EAAuB,MAAK,0CAA5B;AAVL,KADA;AAcA;AAAA;AAAA;AACC,yBAAC,GAAD,IAAK,MAAM,KAAKD,KAAL,CAAWE,IAAtB,GADD;AAEE,UAAKF,KAAL,CAAWC,IAAX,KAAoB,MAApB,IACA,oBAAC,IAAD,IAAM,WAAW,KAAKD,KAAL,CAAWG,SAA5B,GAHF;AAKE,UAAKH,KAAL,CAAWC,IAAX,KAAoB,SAApB,IACA,oBAAC,OAAD,IAAS,WAAW,KAAKD,KAAL,CAAWG,SAA/B,GANF;AAQE,UAAKH,KAAL,CAAWC,IAAX,KAAoB,QAApB,IACA,oBAAC,MAAD,IAAQ,WAAW,KAAKD,KAAL,CAAWG,SAA9B,GATF;AAWE,UAAKH,KAAL,CAAWC,IAAX,KAAoB,SAApB,IACA,oBAAC,OAAD,IAAS,WAAW,KAAKD,KAAL,CAAWG,SAA/B,GAZF;AAcM,UAAKH,KAAL,CAAWC,IAAX,KAAoB,OAApB,IACJ,oBAAC,KAAD,IAAO,WAAW,KAAKD,KAAL,CAAWG,SAA7B,GAfF;AAiBM,UAAKH,KAAL,CAAWC,IAAX,KAAoB,cAApB,IACJ,oBAAC,YAAD,IAAc,WAAW,KAAKD,KAAL,CAAWG,SAApC;AAlBF;AAdA,IADD;AAsCA;;;;EAzCgBZ,MAAMa,S;;AA4CxBC,OAAOC,OAAP,GAAiBP,GAAjB",
       "file": "App.js",
       "sourceRoot": "/app/views",
       "sourcesContent": [
-        "const React = require('react');\nconst Nav = require('./partials/Nav');\n\nclass App extends React.Component {\n  \n  render() {\n    return (\n      <html>\n      <head>\n       <title>ISU StuOrg Management - Home</title>\n          <meta name=\"description\" content=\"ISU StuOrg Check-In\"/>\n          <link id=\"favicon\" rel=\"icon\" href=\"https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FUntitled.png?1508555216206\" type=\"image/x-icon\"/>\n          <meta charset=\"utf-8\"/>\n          <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\n          <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/>\n          <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\"/>\n          <link rel=\"stylesheet\" href=\"https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2Fbulma.css?1508558261423\"/>\n          <link rel=\"stylesheet\" href=\"../public/stylesheets/main.css\"/>\n      </head>\n      <body>\n        <Nav/>\n        {this.props.children}\n      </body>\n      </html>\n    );\n  }\n}\n\nmodule.exports = App;"
+        "const React = require('react');\nconst Nav = require('./partials/Nav');\nconst Home = require('./Home');\nconst Events = require('./Events');\nconst StuOrgs = require('./StuOrgs');\nconst Profile = require('./Profile');\nconst Login = require('./Login');\n\nclass App extends React.Component {\n\t\n\trender() {\n\t\treturn (\n\t\t\t<html>\n\t\t\t<head>\n\t\t\t\t<title>{this.props.page} - ISU StuOrgs</title>\n\t\t\t\t<meta name=\"description\" content=\"ISU StuOrg Check-In\"/>\n\t\t\t\t<link id=\"favicon\" rel=\"icon\" href=\"https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FUntitled.png?1508555216206\" \n\t\t\t\t\t  type=\"image/x-icon\"/>\n\t\t\t\t<meta charSet=\"utf-8\"/>\n\t\t\t\t<meta httpEquiv=\"X-UA-Compatible\" content=\"IE=edge\"/>\n\t\t\t\t<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"/>\n\t\t\t\t<link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\"/>\n\t\t\t\t<link rel=\"stylesheet\" href=\"https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2Fbulma.css?1508558261423\"/>\n        <link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\"/>\n\n\t\t\t</head>\n\t\t\t<body>\n\t\t\t\t<Nav path={this.props.path}/>\n\t\t\t\t{this.props.page === 'Home' &&\n\t\t\t\t\t<Home pageProps={this.props.pageProps}/>\n\t\t\t\t}\n\t\t\t\t{this.props.page === 'StuOrgs' &&\n\t\t\t\t\t<StuOrgs pageProps={this.props.pageProps}/>\n\t\t\t\t}\n\t\t\t\t{this.props.page === 'Events' &&\n\t\t\t\t\t<Events pageProps={this.props.pageProps}/>\n\t\t\t\t}\n\t\t\t\t{this.props.page === 'Profile' &&\n\t\t\t\t\t<Profile pageProps={this.props.pageProps}/>\n\t\t\t\t}\n        {this.props.page === 'Login' &&\n\t\t\t\t\t<Login pageProps={this.props.pageProps}/>\n\t\t\t\t}\n        {this.props.page === 'Registration' &&\n\t\t\t\t\t<Registration pageProps={this.props.pageProps}/>\n\t\t\t\t}\n\t\t\t</body>\n\t\t\t</html>\n\t\t);\n\t}\n}\n\nmodule.exports = App;"
       ]
     },
-    "mtime": 1508594714804
+    "mtime": 1508610265109
   },
   "{\"filename\":\"/app/views/partials/Nav.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/views/partials\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
     "metadata": {
@@ -554,7 +561,7 @@
       "basename": "Nav"
     },
     "ignored": false,
-    "code": "\"use strict\";\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\n\nvar Nav = function (_React$Component) {\n  _inherits(Nav, _React$Component);\n\n  function Nav(props) {\n    _classCallCheck(this, Nav);\n\n    var _this = _possibleConstructorReturn(this, (Nav.__proto__ || Object.getPrototypeOf(Nav)).call(this, props));\n\n    _this.state = {\n      isBurgerOpen: false\n    };\n\n    _this.handleClick = _this.handleClick.bind(_this);\n    return _this;\n  }\n\n  _createClass(Nav, [{\n    key: \"render\",\n    value: function render() {\n      return React.createElement(\n        \"nav\",\n        { className: \"navbar is-dark\", role: \"navigation\", ariaLabel: \"main navigation\" },\n        React.createElement(\n          \"div\",\n          { className: \"navbar-brand\" },\n          React.createElement(\n            \"a\",\n            { className: \"navbar-item\", href: \"/\" },\n            React.createElement(\"img\", { src: \"https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FUntitled.png?1508555216206\" })\n          ),\n          React.createElement(\n            \"button\",\n            { className: \"button navbar-burger\", onClick: this.handleClick },\n            React.createElement(\"span\", null),\n            React.createElement(\"span\", null),\n            React.createElement(\"span\", null)\n          )\n        ),\n        React.createElement(\n          \"div\",\n          { className: \"navbar-menu\" },\n          React.createElement(\n            \"div\",\n            { className: \"navbar-start\" },\n            React.createElement(\n              \"a\",\n              { href: \"/\", className: \"navbar-item is-active\" },\n              \"Home\"\n            ),\n            React.createElement(\n              \"a\",\n              { href: \"/stuorgs\", className: \"navbar-item\" },\n              \"Student Organizations\"\n            ),\n            React.createElement(\n              \"a\",\n              { href: \"/events\", className: \"navbar-item\" },\n              \"Events\"\n            )\n          ),\n          React.createElement(\n            \"div\",\n            { className: \"navbar-end\" },\n            React.createElement(\n              \"div\",\n              { className: \"navbar-item has-dropdown is-hoverable\" },\n              React.createElement(\n                \"a\",\n                { className: \"navbar-link\" },\n                \"User\"\n              ),\n              React.createElement(\n                \"div\",\n                { className: \"navbar-dropdown is-right\" },\n                React.createElement(\n                  \"a\",\n                  { href: \"/profile\", className: \"navbar-item\" },\n                  \"Profile\"\n                ),\n                React.createElement(\n                  \"a\",\n                  { href: \"/logout\", className: \"navbar-item\" },\n                  \"Logout\"\n                )\n              )\n            )\n          )\n        )\n      );\n    }\n  }, {\n    key: \"handleClick\",\n    value: function handleClick() {\n      console.log('Test');\n      this.setState({ isBurgerOpen: !this.state.isBurgerOpen });\n    }\n  }]);\n\n  return Nav;\n}(React.Component);\n\nmodule.exports = Nav;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk5hdi5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsInJlcXVpcmUiLCJOYXYiLCJwcm9wcyIsInN0YXRlIiwiaXNCdXJnZXJPcGVuIiwiaGFuZGxlQ2xpY2siLCJiaW5kIiwiY29uc29sZSIsImxvZyIsInNldFN0YXRlIiwiQ29tcG9uZW50IiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBLElBQU1BLFFBQVFDLFFBQVEsT0FBUixDQUFkOztJQUVNQyxHOzs7QUFFSixlQUFZQyxLQUFaLEVBQW1CO0FBQUE7O0FBQUEsMEdBQ1hBLEtBRFc7O0FBR2pCLFVBQUtDLEtBQUwsR0FBYTtBQUNYQyxvQkFBYztBQURILEtBQWI7O0FBSUEsVUFBS0MsV0FBTCxHQUFtQixNQUFLQSxXQUFMLENBQWlCQyxJQUFqQixPQUFuQjtBQVBpQjtBQVFsQjs7Ozs2QkFFUTtBQUNQLGFBQ0U7QUFBQTtBQUFBLFVBQUssV0FBVSxnQkFBZixFQUFnQyxNQUFLLFlBQXJDLEVBQWtELFdBQVUsaUJBQTVEO0FBQ0E7QUFBQTtBQUFBLFlBQUssV0FBVSxjQUFmO0FBQ0U7QUFBQTtBQUFBLGNBQUcsV0FBVSxhQUFiLEVBQTJCLE1BQUssR0FBaEM7QUFDRSx5Q0FBSyxLQUFJLDBGQUFUO0FBREYsV0FERjtBQUtFO0FBQUE7QUFBQSxjQUFRLGlDQUFSLEVBQTJDLFNBQVMsS0FBS0QsV0FBekQ7QUFDRSw2Q0FERjtBQUVFLDZDQUZGO0FBR0U7QUFIRjtBQUxGLFNBREE7QUFZQTtBQUFBO0FBQUEsWUFBSyx3QkFBTDtBQUNFO0FBQUE7QUFBQSxjQUFLLFdBQVUsY0FBZjtBQUNFO0FBQUE7QUFBQSxnQkFBRyxNQUFLLEdBQVIsRUFBWSxXQUFVLHVCQUF0QjtBQUFBO0FBQUEsYUFERjtBQUVFO0FBQUE7QUFBQSxnQkFBRyxNQUFLLFVBQVIsRUFBbUIsV0FBVSxhQUE3QjtBQUFBO0FBQUEsYUFGRjtBQUdFO0FBQUE7QUFBQSxnQkFBRyxNQUFLLFNBQVIsRUFBa0IsV0FBVSxhQUE1QjtBQUFBO0FBQUE7QUFIRixXQURGO0FBT0U7QUFBQTtBQUFBLGNBQUssV0FBVSxZQUFmO0FBQ0U7QUFBQTtBQUFBLGdCQUFLLFdBQVUsdUNBQWY7QUFDRTtBQUFBO0FBQUEsa0JBQUcsV0FBVSxhQUFiO0FBQUE7QUFBQSxlQURGO0FBS0U7QUFBQTtBQUFBLGtCQUFLLFdBQVUsMEJBQWY7QUFDRTtBQUFBO0FBQUEsb0JBQUcsTUFBSyxVQUFSLEVBQW1CLFdBQVUsYUFBN0I7QUFBQTtBQUFBLGlCQURGO0FBSUU7QUFBQTtBQUFBLG9CQUFHLE1BQUssU0FBUixFQUFrQixXQUFVLGFBQTVCO0FBQUE7QUFBQTtBQUpGO0FBTEY7QUFERjtBQVBGO0FBWkEsT0FERjtBQXdDRDs7O2tDQUVhO0FBQ1pFLGNBQVFDLEdBQVIsQ0FBWSxNQUFaO0FBQ0EsV0FBS0MsUUFBTCxDQUFjLEVBQUNMLGNBQWMsQ0FBQyxLQUFLRCxLQUFMLENBQVdDLFlBQTNCLEVBQWQ7QUFDRDs7OztFQTFEZUwsTUFBTVcsUzs7QUE2RHhCQyxPQUFPQyxPQUFQLEdBQWlCWCxHQUFqQiIsImZpbGUiOiJOYXYuanMiLCJzb3VyY2VSb290IjoiL2FwcC92aWV3cy9wYXJ0aWFscyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxuY2xhc3MgTmF2IGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcbiAgXG4gIGNvbnN0cnVjdG9yKHByb3BzKSB7XG4gICAgc3VwZXIocHJvcHMpO1xuICAgIFxuICAgIHRoaXMuc3RhdGUgPSB7XG4gICAgICBpc0J1cmdlck9wZW46IGZhbHNlICBcbiAgICB9O1xuICAgIFxuICAgIHRoaXMuaGFuZGxlQ2xpY2sgPSB0aGlzLmhhbmRsZUNsaWNrLmJpbmQodGhpcyk7XG4gIH1cbiAgXG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPG5hdiBjbGFzc05hbWU9XCJuYXZiYXIgaXMtZGFya1wiIHJvbGU9XCJuYXZpZ2F0aW9uXCIgYXJpYUxhYmVsPVwibWFpbiBuYXZpZ2F0aW9uXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhci1icmFuZFwiPlxuICAgICAgICA8YSBjbGFzc05hbWU9XCJuYXZiYXItaXRlbVwiIGhyZWY9XCIvXCI+XG4gICAgICAgICAgPGltZyBzcmM9XCJodHRwczovL2Nkbi5nbGl0Y2guY29tL2Q3Y2FhNmUzLTcxNTItNDBmZi05Y2NlLWZkOTQ2MzY2MzFiYyUyRlVudGl0bGVkLnBuZz8xNTA4NTU1MjE2MjA2XCIvPlxuICAgICAgICA8L2E+XG4gICAgICAgIHsvKiBNb2JpbGUgT25seSovfVxuICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT17YGJ1dHRvbiBuYXZiYXItYnVyZ2VyYH0gb25DbGljaz17dGhpcy5oYW5kbGVDbGlja30+XG4gICAgICAgICAgPHNwYW4+PC9zcGFuPlxuICAgICAgICAgIDxzcGFuPjwvc3Bhbj5cbiAgICAgICAgICA8c3Bhbj48L3NwYW4+XG4gICAgICAgIDwvYnV0dG9uPlxuICAgICAgPC9kaXY+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT17YG5hdmJhci1tZW51YH0+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibmF2YmFyLXN0YXJ0XCI+XG4gICAgICAgICAgPGEgaHJlZj1cIi9cIiBjbGFzc05hbWU9XCJuYXZiYXItaXRlbSBpcy1hY3RpdmVcIj5Ib21lPC9hPlxuICAgICAgICAgIDxhIGhyZWY9XCIvc3R1b3Jnc1wiIGNsYXNzTmFtZT1cIm5hdmJhci1pdGVtXCI+U3R1ZGVudCBPcmdhbml6YXRpb25zPC9hPlxuICAgICAgICAgIDxhIGhyZWY9XCIvZXZlbnRzXCIgY2xhc3NOYW1lPVwibmF2YmFyLWl0ZW1cIj5FdmVudHM8L2E+XG4gICAgICAgIDwvZGl2PlxuICAgICAgXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibmF2YmFyLWVuZFwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibmF2YmFyLWl0ZW0gaGFzLWRyb3Bkb3duIGlzLWhvdmVyYWJsZVwiPlxuICAgICAgICAgICAgPGEgY2xhc3NOYW1lPVwibmF2YmFyLWxpbmtcIj5cbiAgICAgICAgICAgICAgVXNlclxuICAgICAgICAgICAgPC9hPlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhci1kcm9wZG93biBpcy1yaWdodFwiPlxuICAgICAgICAgICAgICA8YSBocmVmPVwiL3Byb2ZpbGVcIiBjbGFzc05hbWU9XCJuYXZiYXItaXRlbVwiPlxuICAgICAgICAgICAgICAgIFByb2ZpbGVcbiAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICA8YSBocmVmPVwiL2xvZ291dFwiIGNsYXNzTmFtZT1cIm5hdmJhci1pdGVtXCI+XG4gICAgICAgICAgICAgICAgTG9nb3V0XG4gICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cbiAgICBcbiAgICAgIDwvZGl2PlxuICAgIDwvbmF2PlxuICAgICk7XG4gIH1cblxuICBoYW5kbGVDbGljaygpIHtcbiAgICBjb25zb2xlLmxvZygnVGVzdCcpO1xuICAgIHRoaXMuc2V0U3RhdGUoe2lzQnVyZ2VyT3BlbjogIXRoaXMuc3RhdGUuaXNCdXJnZXJPcGVufSk7XG4gIH1cbn1cblxubW9kdWxlLmV4cG9ydHMgPSBOYXY7Il19",
+    "code": "\"use strict\";\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\n\nvar Nav = function (_React$Component) {\n  _inherits(Nav, _React$Component);\n\n  function Nav() {\n    _classCallCheck(this, Nav);\n\n    return _possibleConstructorReturn(this, (Nav.__proto__ || Object.getPrototypeOf(Nav)).apply(this, arguments));\n  }\n\n  _createClass(Nav, [{\n    key: \"render\",\n    value: function render() {\n      return React.createElement(\n        \"nav\",\n        { className: \"navbar is-dark\", role: \"navigation\", \"aria-label\": \"main navigation\" },\n        React.createElement(\n          \"div\",\n          { className: \"navbar-brand\" },\n          React.createElement(\n            \"a\",\n            { className: \"navbar-item\", href: \"/\" },\n            React.createElement(\"img\", { src: \"https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FUntitled.png?1508555216206\" })\n          ),\n          React.createElement(\n            \"button\",\n            { className: \"button navbar-burger\" },\n            React.createElement(\"span\", null),\n            React.createElement(\"span\", null),\n            React.createElement(\"span\", null)\n          )\n        ),\n        this.props.path !== '/login' && React.createElement(\n          \"div\",\n          { className: \"navbar-menu\" },\n          React.createElement(\n            \"div\",\n            { className: \"navbar-start\" },\n            React.createElement(\n              \"a\",\n              { href: \"/\", className: \"navbar-item \" + this.isActivePage('/') },\n              \"Home\"\n            ),\n            React.createElement(\n              \"a\",\n              { href: \"/stuorgs\", className: \"navbar-item \" + this.isActivePage('/stuorgs') },\n              \"Student Organizations\"\n            ),\n            React.createElement(\n              \"a\",\n              { href: \"/events\", className: \"navbar-item \" + this.isActivePage('/events') },\n              \"Events\"\n            )\n          ),\n          React.createElement(\n            \"div\",\n            { className: \"navbar-end\" },\n            React.createElement(\n              \"div\",\n              { className: \"navbar-item has-dropdown is-hoverable\" },\n              React.createElement(\n                \"a\",\n                { className: \"navbar-link\" },\n                \"User\"\n              ),\n              React.createElement(\n                \"div\",\n                { className: \"navbar-dropdown is-right\" },\n                React.createElement(\n                  \"a\",\n                  { href: \"/profile\",\n                    className: \"navbar-item \" + this.isActivePage('/profile') },\n                  \"Profile\"\n                ),\n                React.createElement(\n                  \"a\",\n                  { href: \"/logout\", className: \"navbar-item\" },\n                  \"Logout\"\n                )\n              )\n            )\n          )\n        )\n      );\n    }\n  }, {\n    key: \"isActivePage\",\n    value: function isActivePage(path) {\n      return path === this.props.path ? 'is-active' : '';\n    }\n  }]);\n\n  return Nav;\n}(React.Component);\n\nmodule.exports = Nav;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIk5hdi5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsInJlcXVpcmUiLCJOYXYiLCJwcm9wcyIsInBhdGgiLCJpc0FjdGl2ZVBhZ2UiLCJDb21wb25lbnQiLCJtb2R1bGUiLCJleHBvcnRzIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQUEsSUFBTUEsUUFBUUMsUUFBUSxPQUFSLENBQWQ7O0lBRU1DLEc7Ozs7Ozs7Ozs7OzZCQUVJO0FBQ1IsYUFDQztBQUFBO0FBQUEsVUFBSyxXQUFVLGdCQUFmLEVBQWdDLE1BQUssWUFBckMsRUFBa0QsY0FBVyxpQkFBN0Q7QUFDQztBQUFBO0FBQUEsWUFBSyxXQUFVLGNBQWY7QUFDQztBQUFBO0FBQUEsY0FBRyxXQUFVLGFBQWIsRUFBMkIsTUFBSyxHQUFoQztBQUNDLHlDQUFLLEtBQUksMEZBQVQ7QUFERCxXQUREO0FBS0M7QUFBQTtBQUFBLGNBQVEsV0FBVSxzQkFBbEI7QUFDQyw2Q0FERDtBQUVDLDZDQUZEO0FBR0M7QUFIRDtBQUxELFNBREQ7QUFZTSxhQUFLQyxLQUFMLENBQVdDLElBQVgsS0FBb0IsUUFBcEIsSUFDQztBQUFBO0FBQUEsWUFBSyxXQUFVLGFBQWY7QUFDRTtBQUFBO0FBQUEsY0FBSyxXQUFVLGNBQWY7QUFDRTtBQUFBO0FBQUEsZ0JBQUcsTUFBSyxHQUFSLEVBQVksNEJBQTBCLEtBQUtDLFlBQUwsQ0FBa0IsR0FBbEIsQ0FBdEM7QUFBQTtBQUFBLGFBREY7QUFJRTtBQUFBO0FBQUEsZ0JBQUcsTUFBSyxVQUFSLEVBQW1CLDRCQUEwQixLQUFLQSxZQUFMLENBQWtCLFVBQWxCLENBQTdDO0FBQUE7QUFBQSxhQUpGO0FBT0U7QUFBQTtBQUFBLGdCQUFHLE1BQUssU0FBUixFQUFrQiw0QkFBMEIsS0FBS0EsWUFBTCxDQUFrQixTQUFsQixDQUE1QztBQUFBO0FBQUE7QUFQRixXQURGO0FBWUU7QUFBQTtBQUFBLGNBQUssV0FBVSxZQUFmO0FBQ0U7QUFBQTtBQUFBLGdCQUFLLFdBQVUsdUNBQWY7QUFDRTtBQUFBO0FBQUEsa0JBQUcsV0FBVSxhQUFiO0FBQUE7QUFBQSxlQURGO0FBSUU7QUFBQTtBQUFBLGtCQUFLLFdBQVUsMEJBQWY7QUFDRTtBQUFBO0FBQUEsb0JBQUcsTUFBSyxVQUFSO0FBQ0csZ0RBQTBCLEtBQUtBLFlBQUwsQ0FBa0IsVUFBbEIsQ0FEN0I7QUFBQTtBQUFBLGlCQURGO0FBS0U7QUFBQTtBQUFBLG9CQUFHLE1BQUssU0FBUixFQUFrQixXQUFVLGFBQTVCO0FBQUE7QUFBQTtBQUxGO0FBSkY7QUFERjtBQVpGO0FBYlAsT0FERDtBQThDQTs7O2lDQUVZRCxJLEVBQU07QUFDbEIsYUFBT0EsU0FBUyxLQUFLRCxLQUFMLENBQVdDLElBQXBCLEdBQTJCLFdBQTNCLEdBQXlDLEVBQWhEO0FBQ0E7Ozs7RUFyRGdCSixNQUFNTSxTOztBQXdEeEJDLE9BQU9DLE9BQVAsR0FBaUJOLEdBQWpCIiwiZmlsZSI6Ik5hdi5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3ZpZXdzL3BhcnRpYWxzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5jbGFzcyBOYXYgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuXG5cdHJlbmRlcigpIHtcblx0XHRyZXR1cm4gKFxuXHRcdFx0PG5hdiBjbGFzc05hbWU9XCJuYXZiYXIgaXMtZGFya1wiIHJvbGU9XCJuYXZpZ2F0aW9uXCIgYXJpYS1sYWJlbD1cIm1haW4gbmF2aWdhdGlvblwiPlxuXHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhci1icmFuZFwiPlxuXHRcdFx0XHRcdDxhIGNsYXNzTmFtZT1cIm5hdmJhci1pdGVtXCIgaHJlZj1cIi9cIj5cblx0XHRcdFx0XHRcdDxpbWcgc3JjPVwiaHR0cHM6Ly9jZG4uZ2xpdGNoLmNvbS9kN2NhYTZlMy03MTUyLTQwZmYtOWNjZS1mZDk0NjM2NjMxYmMlMkZVbnRpdGxlZC5wbmc/MTUwODU1NTIxNjIwNlwiLz5cblx0XHRcdFx0XHQ8L2E+XG5cblx0XHRcdFx0XHQ8YnV0dG9uIGNsYXNzTmFtZT1cImJ1dHRvbiBuYXZiYXItYnVyZ2VyXCI+XG5cdFx0XHRcdFx0XHQ8c3Bhbi8+XG5cdFx0XHRcdFx0XHQ8c3Bhbi8+XG5cdFx0XHRcdFx0XHQ8c3Bhbi8+XG5cdFx0XHRcdFx0PC9idXR0b24+XG5cdFx0XHRcdDwvZGl2PlxuICAgICAgICB7dGhpcy5wcm9wcy5wYXRoICE9PSAnL2xvZ2luJyAmJlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibmF2YmFyLW1lbnVcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibmF2YmFyLXN0YXJ0XCI+XG4gICAgICAgICAgICAgIDxhIGhyZWY9XCIvXCIgY2xhc3NOYW1lPXtgbmF2YmFyLWl0ZW0gJHt0aGlzLmlzQWN0aXZlUGFnZSgnLycpfWB9PlxuICAgICAgICAgICAgICAgIEhvbWVcbiAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgICA8YSBocmVmPVwiL3N0dW9yZ3NcIiBjbGFzc05hbWU9e2BuYXZiYXItaXRlbSAke3RoaXMuaXNBY3RpdmVQYWdlKCcvc3R1b3JncycpfWB9PlxuICAgICAgICAgICAgICAgIFN0dWRlbnQgT3JnYW5pemF0aW9uc1xuICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgIDxhIGhyZWY9XCIvZXZlbnRzXCIgY2xhc3NOYW1lPXtgbmF2YmFyLWl0ZW0gJHt0aGlzLmlzQWN0aXZlUGFnZSgnL2V2ZW50cycpfWB9PlxuICAgICAgICAgICAgICAgIEV2ZW50c1xuICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibmF2YmFyLWVuZFwiPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhci1pdGVtIGhhcy1kcm9wZG93biBpcy1ob3ZlcmFibGVcIj5cbiAgICAgICAgICAgICAgICA8YSBjbGFzc05hbWU9XCJuYXZiYXItbGlua1wiPlxuICAgICAgICAgICAgICAgICAgVXNlclxuICAgICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdmJhci1kcm9wZG93biBpcy1yaWdodFwiPlxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIi9wcm9maWxlXCJcbiAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT17YG5hdmJhci1pdGVtICR7dGhpcy5pc0FjdGl2ZVBhZ2UoJy9wcm9maWxlJyl9YH0+XG4gICAgICAgICAgICAgICAgICAgIFByb2ZpbGVcbiAgICAgICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9XCIvbG9nb3V0XCIgY2xhc3NOYW1lPVwibmF2YmFyLWl0ZW1cIj5cbiAgICAgICAgICAgICAgICAgICAgTG9nb3V0XG4gICAgICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIH1cblx0XHRcdDwvbmF2PlxuXHRcdCk7XG5cdH1cblxuXHRpc0FjdGl2ZVBhZ2UocGF0aCkge1xuXHRcdHJldHVybiBwYXRoID09PSB0aGlzLnByb3BzLnBhdGggPyAnaXMtYWN0aXZlJyA6ICcnO1xuXHR9XG59XG5cbm1vZHVsZS5leHBvcnRzID0gTmF2OyJdfQ==",
     "ast": null,
     "map": {
       "version": 3,
@@ -566,24 +573,788 @@
         "require",
         "Nav",
         "props",
-        "state",
-        "isBurgerOpen",
-        "handleClick",
-        "bind",
-        "console",
-        "log",
-        "setState",
+        "path",
+        "isActivePage",
         "Component",
         "module",
         "exports"
       ],
-      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;;IAEMC,G;;;AAEJ,eAAYC,KAAZ,EAAmB;AAAA;;AAAA,0GACXA,KADW;;AAGjB,UAAKC,KAAL,GAAa;AACXC,oBAAc;AADH,KAAb;;AAIA,UAAKC,WAAL,GAAmB,MAAKA,WAAL,CAAiBC,IAAjB,OAAnB;AAPiB;AAQlB;;;;6BAEQ;AACP,aACE;AAAA;AAAA,UAAK,WAAU,gBAAf,EAAgC,MAAK,YAArC,EAAkD,WAAU,iBAA5D;AACA;AAAA;AAAA,YAAK,WAAU,cAAf;AACE;AAAA;AAAA,cAAG,WAAU,aAAb,EAA2B,MAAK,GAAhC;AACE,yCAAK,KAAI,0FAAT;AADF,WADF;AAKE;AAAA;AAAA,cAAQ,iCAAR,EAA2C,SAAS,KAAKD,WAAzD;AACE,6CADF;AAEE,6CAFF;AAGE;AAHF;AALF,SADA;AAYA;AAAA;AAAA,YAAK,wBAAL;AACE;AAAA;AAAA,cAAK,WAAU,cAAf;AACE;AAAA;AAAA,gBAAG,MAAK,GAAR,EAAY,WAAU,uBAAtB;AAAA;AAAA,aADF;AAEE;AAAA;AAAA,gBAAG,MAAK,UAAR,EAAmB,WAAU,aAA7B;AAAA;AAAA,aAFF;AAGE;AAAA;AAAA,gBAAG,MAAK,SAAR,EAAkB,WAAU,aAA5B;AAAA;AAAA;AAHF,WADF;AAOE;AAAA;AAAA,cAAK,WAAU,YAAf;AACE;AAAA;AAAA,gBAAK,WAAU,uCAAf;AACE;AAAA;AAAA,kBAAG,WAAU,aAAb;AAAA;AAAA,eADF;AAKE;AAAA;AAAA,kBAAK,WAAU,0BAAf;AACE;AAAA;AAAA,oBAAG,MAAK,UAAR,EAAmB,WAAU,aAA7B;AAAA;AAAA,iBADF;AAIE;AAAA;AAAA,oBAAG,MAAK,SAAR,EAAkB,WAAU,aAA5B;AAAA;AAAA;AAJF;AALF;AADF;AAPF;AAZA,OADF;AAwCD;;;kCAEa;AACZE,cAAQC,GAAR,CAAY,MAAZ;AACA,WAAKC,QAAL,CAAc,EAACL,cAAc,CAAC,KAAKD,KAAL,CAAWC,YAA3B,EAAd;AACD;;;;EA1DeL,MAAMW,S;;AA6DxBC,OAAOC,OAAP,GAAiBX,GAAjB",
+      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;;IAEMC,G;;;;;;;;;;;6BAEI;AACR,aACC;AAAA;AAAA,UAAK,WAAU,gBAAf,EAAgC,MAAK,YAArC,EAAkD,cAAW,iBAA7D;AACC;AAAA;AAAA,YAAK,WAAU,cAAf;AACC;AAAA;AAAA,cAAG,WAAU,aAAb,EAA2B,MAAK,GAAhC;AACC,yCAAK,KAAI,0FAAT;AADD,WADD;AAKC;AAAA;AAAA,cAAQ,WAAU,sBAAlB;AACC,6CADD;AAEC,6CAFD;AAGC;AAHD;AALD,SADD;AAYM,aAAKC,KAAL,CAAWC,IAAX,KAAoB,QAApB,IACC;AAAA;AAAA,YAAK,WAAU,aAAf;AACE;AAAA;AAAA,cAAK,WAAU,cAAf;AACE;AAAA;AAAA,gBAAG,MAAK,GAAR,EAAY,4BAA0B,KAAKC,YAAL,CAAkB,GAAlB,CAAtC;AAAA;AAAA,aADF;AAIE;AAAA;AAAA,gBAAG,MAAK,UAAR,EAAmB,4BAA0B,KAAKA,YAAL,CAAkB,UAAlB,CAA7C;AAAA;AAAA,aAJF;AAOE;AAAA;AAAA,gBAAG,MAAK,SAAR,EAAkB,4BAA0B,KAAKA,YAAL,CAAkB,SAAlB,CAA5C;AAAA;AAAA;AAPF,WADF;AAYE;AAAA;AAAA,cAAK,WAAU,YAAf;AACE;AAAA;AAAA,gBAAK,WAAU,uCAAf;AACE;AAAA;AAAA,kBAAG,WAAU,aAAb;AAAA;AAAA,eADF;AAIE;AAAA;AAAA,kBAAK,WAAU,0BAAf;AACE;AAAA;AAAA,oBAAG,MAAK,UAAR;AACG,gDAA0B,KAAKA,YAAL,CAAkB,UAAlB,CAD7B;AAAA;AAAA,iBADF;AAKE;AAAA;AAAA,oBAAG,MAAK,SAAR,EAAkB,WAAU,aAA5B;AAAA;AAAA;AALF;AAJF;AADF;AAZF;AAbP,OADD;AA8CA;;;iCAEYD,I,EAAM;AAClB,aAAOA,SAAS,KAAKD,KAAL,CAAWC,IAApB,GAA2B,WAA3B,GAAyC,EAAhD;AACA;;;;EArDgBJ,MAAMM,S;;AAwDxBC,OAAOC,OAAP,GAAiBN,GAAjB",
       "file": "Nav.js",
       "sourceRoot": "/app/views/partials",
       "sourcesContent": [
-        "const React = require('react');\n\nclass Nav extends React.Component {\n  \n  constructor(props) {\n    super(props);\n    \n    this.state = {\n      isBurgerOpen: false  \n    };\n    \n    this.handleClick = this.handleClick.bind(this);\n  }\n  \n  render() {\n    return (\n      <nav className=\"navbar is-dark\" role=\"navigation\" ariaLabel=\"main navigation\">\n      <div className=\"navbar-brand\">\n        <a className=\"navbar-item\" href=\"/\">\n          <img src=\"https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FUntitled.png?1508555216206\"/>\n        </a>\n        {/* Mobile Only*/}\n        <button className={`button navbar-burger`} onClick={this.handleClick}>\n          <span></span>\n          <span></span>\n          <span></span>\n        </button>\n      </div>\n      <div className={`navbar-menu`}>\n        <div className=\"navbar-start\">\n          <a href=\"/\" className=\"navbar-item is-active\">Home</a>\n          <a href=\"/stuorgs\" className=\"navbar-item\">Student Organizations</a>\n          <a href=\"/events\" className=\"navbar-item\">Events</a>\n        </div>\n      \n        <div className=\"navbar-end\">\n          <div className=\"navbar-item has-dropdown is-hoverable\">\n            <a className=\"navbar-link\">\n              User\n            </a>\n\n            <div className=\"navbar-dropdown is-right\">\n              <a href=\"/profile\" className=\"navbar-item\">\n                Profile\n              </a>\n              <a href=\"/logout\" className=\"navbar-item\">\n                Logout\n              </a>\n            </div>\n          </div>\n        </div>\n    \n      </div>\n    </nav>\n    );\n  }\n\n  handleClick() {\n    console.log('Test');\n    this.setState({isBurgerOpen: !this.state.isBurgerOpen});\n  }\n}\n\nmodule.exports = Nav;"
+        "const React = require('react');\n\nclass Nav extends React.Component {\n\n\trender() {\n\t\treturn (\n\t\t\t<nav className=\"navbar is-dark\" role=\"navigation\" aria-label=\"main navigation\">\n\t\t\t\t<div className=\"navbar-brand\">\n\t\t\t\t\t<a className=\"navbar-item\" href=\"/\">\n\t\t\t\t\t\t<img src=\"https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FUntitled.png?1508555216206\"/>\n\t\t\t\t\t</a>\n\n\t\t\t\t\t<button className=\"button navbar-burger\">\n\t\t\t\t\t\t<span/>\n\t\t\t\t\t\t<span/>\n\t\t\t\t\t\t<span/>\n\t\t\t\t\t</button>\n\t\t\t\t</div>\n        {this.props.path !== '/login' &&\n          <div className=\"navbar-menu\">\n            <div className=\"navbar-start\">\n              <a href=\"/\" className={`navbar-item ${this.isActivePage('/')}`}>\n                Home\n              </a>\n              <a href=\"/stuorgs\" className={`navbar-item ${this.isActivePage('/stuorgs')}`}>\n                Student Organizations\n              </a>\n              <a href=\"/events\" className={`navbar-item ${this.isActivePage('/events')}`}>\n                Events\n              </a>\n            </div>\n            <div className=\"navbar-end\">\n              <div className=\"navbar-item has-dropdown is-hoverable\">\n                <a className=\"navbar-link\">\n                  User\n                </a>\n                <div className=\"navbar-dropdown is-right\">\n                  <a href=\"/profile\"\n                     className={`navbar-item ${this.isActivePage('/profile')}`}>\n                    Profile\n                  </a>\n                  <a href=\"/logout\" className=\"navbar-item\">\n                    Logout\n                  </a>\n                </div>\n              </div>\n            </div>\n          </div>\n        }\n\t\t\t</nav>\n\t\t);\n\t}\n\n\tisActivePage(path) {\n\t\treturn path === this.props.path ? 'is-active' : '';\n\t}\n}\n\nmodule.exports = Nav;"
       ]
     },
-    "mtime": 1508596483788
+    "mtime": 1508610598463
+  },
+  "{\"filename\":\"/app/views/Events.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/views\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "inherits",
+        "possibleConstructorReturn",
+        "createClass",
+        "classCallCheck"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/views/Events.js",
+      "filenameRelative": "/app/views/Events.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "Events.js",
+      "sourceFileName": "Events.js",
+      "sourceRoot": "/app/views",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/views",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "Events"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\n\nvar Events = function (_React$Component) {\n\t_inherits(Events, _React$Component);\n\n\tfunction Events() {\n\t\t_classCallCheck(this, Events);\n\n\t\treturn _possibleConstructorReturn(this, (Events.__proto__ || Object.getPrototypeOf(Events)).apply(this, arguments));\n\t}\n\n\t_createClass(Events, [{\n\t\tkey: \"render\",\n\t\tvalue: function render() {\n\t\t\treturn React.createElement(\n\t\t\t\t\"div\",\n\t\t\t\tnull,\n\t\t\t\tReact.createElement(\n\t\t\t\t\t\"div\",\n\t\t\t\t\t{ className: \"w3-container\" },\n\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\"h1\",\n\t\t\t\t\t\tnull,\n\t\t\t\t\t\t\"Upcoming Events\"\n\t\t\t\t\t)\n\t\t\t\t),\n\t\t\t\tReact.createElement(\n\t\t\t\t\t\"div\",\n\t\t\t\t\tnull,\n\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t{ className: \"w3-row w3-container\" },\n\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t{ className: \"w3-row\" },\n\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t{ className: \"w3-col m3 w3-center\" },\n\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t\t{ className: \"w3-card-4\", style: { width: '90%' } },\n\t\t\t\t\t\t\t\t\tReact.createElement(\"img\", { src: \"https://i.imgur.com/3fAd0w8.gif\", alt: \"Norway\", style: { width: '100%' } }),\n\t\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t\t\t{ className: \"w3-container w3-center\" },\n\t\t\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\t\t\"p\",\n\t\t\t\t\t\t\t\t\t\t\tnull,\n\t\t\t\t\t\t\t\t\t\t\t\"MIS Club\"\n\t\t\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t),\n\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t{ className: \"w3-col m3 w3-center\" },\n\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t\t{ className: \"w3-card-4\", style: { width: '90%' } },\n\t\t\t\t\t\t\t\t\tReact.createElement(\"img\", { src: \"https://i.imgur.com/3fAd0w8.gif\", alt: \"Norway\", style: { width: '100%' } }),\n\t\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t\t\t{ className: \"w3-container w3-center\" },\n\t\t\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\t\t\"p\",\n\t\t\t\t\t\t\t\t\t\t\tnull,\n\t\t\t\t\t\t\t\t\t\t\t\"MIS Club\"\n\t\t\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t),\n\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t{ className: \"w3-col m3 w3-center\" },\n\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t\t{ className: \"w3-card-4\", style: { width: '90%' } },\n\t\t\t\t\t\t\t\t\tReact.createElement(\"img\", { src: \"https://i.imgur.com/3fAd0w8.gif\", alt: \"Norway\", style: { width: '100%' } }),\n\t\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t\t\t{ className: \"w3-container w3-center\" },\n\t\t\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\t\t\"p\",\n\t\t\t\t\t\t\t\t\t\t\tnull,\n\t\t\t\t\t\t\t\t\t\t\t\"MIS Club\"\n\t\t\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t),\n\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t{ className: \"w3-col m3 w3-center\" },\n\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t\t{ className: \"w3-card-4\", style: { width: '90%' } },\n\t\t\t\t\t\t\t\t\tReact.createElement(\"img\", { src: \"https://i.imgur.com/3fAd0w8.gif\", alt: \"Norway\", style: { width: '100%' } }),\n\t\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\t\"div\",\n\t\t\t\t\t\t\t\t\t\t{ className: \"w3-container w3-center\" },\n\t\t\t\t\t\t\t\t\t\tReact.createElement(\n\t\t\t\t\t\t\t\t\t\t\t\"p\",\n\t\t\t\t\t\t\t\t\t\t\tnull,\n\t\t\t\t\t\t\t\t\t\t\t\"MIS Club\"\n\t\t\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t\t)\n\t\t\t\t\t\t\t)\n\t\t\t\t\t\t)\n\t\t\t\t\t)\n\t\t\t\t)\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn Events;\n}(React.Component);\n\nmodule.exports = Events;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkV2ZW50cy5qcyJdLCJuYW1lcyI6WyJSZWFjdCIsInJlcXVpcmUiLCJFdmVudHMiLCJ3aWR0aCIsIkNvbXBvbmVudCIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQSxJQUFNQSxRQUFRQyxRQUFRLE9BQVIsQ0FBZDs7SUFFTUMsTTs7Ozs7Ozs7Ozs7MkJBRUk7QUFDUixVQUNDO0FBQUE7QUFBQTtBQUNJO0FBQUE7QUFBQSxPQUFLLFdBQVUsY0FBZjtBQUNIO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFERyxLQURKO0FBSUM7QUFBQTtBQUFBO0FBQ0M7QUFBQTtBQUFBLFFBQUssV0FBVSxxQkFBZjtBQUNDO0FBQUE7QUFBQSxTQUFLLFdBQVUsUUFBZjtBQUNDO0FBQUE7QUFBQSxVQUFLLFdBQVUscUJBQWY7QUFDQztBQUFBO0FBQUEsV0FBSyxXQUFVLFdBQWYsRUFBMkIsT0FBTyxFQUFDQyxPQUFNLEtBQVAsRUFBbEM7QUFDQyxzQ0FBSyxLQUFJLGlDQUFULEVBQTJDLEtBQUksUUFBL0MsRUFBd0QsT0FBTyxFQUFDQSxPQUFNLE1BQVAsRUFBL0QsR0FERDtBQUVDO0FBQUE7QUFBQSxZQUFLLFdBQVUsd0JBQWY7QUFDQztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREQ7QUFGRDtBQURELFFBREQ7QUFTQztBQUFBO0FBQUEsVUFBSyxXQUFVLHFCQUFmO0FBQ0M7QUFBQTtBQUFBLFdBQUssV0FBVSxXQUFmLEVBQTJCLE9BQU8sRUFBQ0EsT0FBTSxLQUFQLEVBQWxDO0FBQ0Msc0NBQUssS0FBSSxpQ0FBVCxFQUEyQyxLQUFJLFFBQS9DLEVBQXdELE9BQU8sRUFBQ0EsT0FBTSxNQUFQLEVBQS9ELEdBREQ7QUFFQztBQUFBO0FBQUEsWUFBSyxXQUFVLHdCQUFmO0FBQ0M7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUREO0FBRkQ7QUFERCxRQVREO0FBaUJDO0FBQUE7QUFBQSxVQUFLLFdBQVUscUJBQWY7QUFDQztBQUFBO0FBQUEsV0FBSyxXQUFVLFdBQWYsRUFBMkIsT0FBTyxFQUFDQSxPQUFNLEtBQVAsRUFBbEM7QUFDQyxzQ0FBSyxLQUFJLGlDQUFULEVBQTJDLEtBQUksUUFBL0MsRUFBd0QsT0FBTyxFQUFDQSxPQUFNLE1BQVAsRUFBL0QsR0FERDtBQUVDO0FBQUE7QUFBQSxZQUFLLFdBQVUsd0JBQWY7QUFDQztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREQ7QUFGRDtBQURELFFBakJEO0FBeUJDO0FBQUE7QUFBQSxVQUFLLFdBQVUscUJBQWY7QUFDQztBQUFBO0FBQUEsV0FBSyxXQUFVLFdBQWYsRUFBMkIsT0FBTyxFQUFDQSxPQUFNLEtBQVAsRUFBbEM7QUFDQyxzQ0FBSyxLQUFJLGlDQUFULEVBQTJDLEtBQUksUUFBL0MsRUFBd0QsT0FBTyxFQUFDQSxPQUFNLE1BQVAsRUFBL0QsR0FERDtBQUVDO0FBQUE7QUFBQSxZQUFLLFdBQVUsd0JBQWY7QUFDQztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBREQ7QUFGRDtBQUREO0FBekJEO0FBREQ7QUFERDtBQUpELElBREQ7QUE2Q0E7Ozs7RUFoRG1CSCxNQUFNSSxTOztBQW1EM0JDLE9BQU9DLE9BQVAsR0FBaUJKLE1BQWpCIiwiZmlsZSI6IkV2ZW50cy5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3ZpZXdzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5jbGFzcyBFdmVudHMgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuXG5cdHJlbmRlcigpIHtcblx0XHRyZXR1cm4gKFxuXHRcdFx0PGRpdj5cbiAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInczLWNvbnRhaW5lclwiPlxuXHRcdFx0XHQ8aDE+VXBjb21pbmcgRXZlbnRzPC9oMT5cbiAgICAgICA8L2Rpdj5cblx0XHRcdFx0PGRpdj5cblx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInczLXJvdyB3My1jb250YWluZXJcIj5cblx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidzMtcm93XCI+XG5cdFx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidzMtY29sIG0zIHczLWNlbnRlclwiPlxuXHRcdFx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidzMtY2FyZC00XCIgc3R5bGU9e3t3aWR0aDonOTAlJ319PlxuXHRcdFx0XHRcdFx0XHRcdFx0PGltZyBzcmM9XCJodHRwczovL2kuaW1ndXIuY29tLzNmQWQwdzguZ2lmXCIgYWx0PVwiTm9yd2F5XCIgc3R5bGU9e3t3aWR0aDonMTAwJSd9fS8+XG5cdFx0XHRcdFx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInczLWNvbnRhaW5lciB3My1jZW50ZXJcIj5cblx0XHRcdFx0XHRcdFx0XHRcdFx0PHA+TUlTIENsdWI8L3A+XG5cdFx0XHRcdFx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidzMtY29sIG0zIHczLWNlbnRlclwiPlxuXHRcdFx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidzMtY2FyZC00XCIgc3R5bGU9e3t3aWR0aDonOTAlJ319PlxuXHRcdFx0XHRcdFx0XHRcdFx0PGltZyBzcmM9XCJodHRwczovL2kuaW1ndXIuY29tLzNmQWQwdzguZ2lmXCIgYWx0PVwiTm9yd2F5XCIgc3R5bGU9e3t3aWR0aDonMTAwJSd9fS8+XG5cdFx0XHRcdFx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInczLWNvbnRhaW5lciB3My1jZW50ZXJcIj5cblx0XHRcdFx0XHRcdFx0XHRcdFx0PHA+TUlTIENsdWI8L3A+XG5cdFx0XHRcdFx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidzMtY29sIG0zIHczLWNlbnRlclwiPlxuXHRcdFx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidzMtY2FyZC00XCIgc3R5bGU9e3t3aWR0aDonOTAlJ319PlxuXHRcdFx0XHRcdFx0XHRcdFx0PGltZyBzcmM9XCJodHRwczovL2kuaW1ndXIuY29tLzNmQWQwdzguZ2lmXCIgYWx0PVwiTm9yd2F5XCIgc3R5bGU9e3t3aWR0aDonMTAwJSd9fS8+XG5cdFx0XHRcdFx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInczLWNvbnRhaW5lciB3My1jZW50ZXJcIj5cblx0XHRcdFx0XHRcdFx0XHRcdFx0PHA+TUlTIENsdWI8L3A+XG5cdFx0XHRcdFx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidzMtY29sIG0zIHczLWNlbnRlclwiPlxuXHRcdFx0XHRcdFx0XHRcdDxkaXYgY2xhc3NOYW1lPVwidzMtY2FyZC00XCIgc3R5bGU9e3t3aWR0aDonOTAlJ319PlxuXHRcdFx0XHRcdFx0XHRcdFx0PGltZyBzcmM9XCJodHRwczovL2kuaW1ndXIuY29tLzNmQWQwdzguZ2lmXCIgYWx0PVwiTm9yd2F5XCIgc3R5bGU9e3t3aWR0aDonMTAwJSd9fS8+XG5cdFx0XHRcdFx0XHRcdFx0XHQ8ZGl2IGNsYXNzTmFtZT1cInczLWNvbnRhaW5lciB3My1jZW50ZXJcIj5cblx0XHRcdFx0XHRcdFx0XHRcdFx0PHA+TUlTIENsdWI8L3A+XG5cdFx0XHRcdFx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0XHRcdFx0PC9kaXY+XG5cdFx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0XHQ8L2Rpdj5cblx0XHRcdFx0PC9kaXY+XG5cdFx0XHQ8L2Rpdj5cblx0XHQpO1xuXHR9XG59XG5cbm1vZHVsZS5leHBvcnRzID0gRXZlbnRzOyJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "Events.js"
+      ],
+      "names": [
+        "React",
+        "require",
+        "Events",
+        "width",
+        "Component",
+        "module",
+        "exports"
+      ],
+      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;;IAEMC,M;;;;;;;;;;;2BAEI;AACR,UACC;AAAA;AAAA;AACI;AAAA;AAAA,OAAK,WAAU,cAAf;AACH;AAAA;AAAA;AAAA;AAAA;AADG,KADJ;AAIC;AAAA;AAAA;AACC;AAAA;AAAA,QAAK,WAAU,qBAAf;AACC;AAAA;AAAA,SAAK,WAAU,QAAf;AACC;AAAA;AAAA,UAAK,WAAU,qBAAf;AACC;AAAA;AAAA,WAAK,WAAU,WAAf,EAA2B,OAAO,EAACC,OAAM,KAAP,EAAlC;AACC,sCAAK,KAAI,iCAAT,EAA2C,KAAI,QAA/C,EAAwD,OAAO,EAACA,OAAM,MAAP,EAA/D,GADD;AAEC;AAAA;AAAA,YAAK,WAAU,wBAAf;AACC;AAAA;AAAA;AAAA;AAAA;AADD;AAFD;AADD,QADD;AASC;AAAA;AAAA,UAAK,WAAU,qBAAf;AACC;AAAA;AAAA,WAAK,WAAU,WAAf,EAA2B,OAAO,EAACA,OAAM,KAAP,EAAlC;AACC,sCAAK,KAAI,iCAAT,EAA2C,KAAI,QAA/C,EAAwD,OAAO,EAACA,OAAM,MAAP,EAA/D,GADD;AAEC;AAAA;AAAA,YAAK,WAAU,wBAAf;AACC;AAAA;AAAA;AAAA;AAAA;AADD;AAFD;AADD,QATD;AAiBC;AAAA;AAAA,UAAK,WAAU,qBAAf;AACC;AAAA;AAAA,WAAK,WAAU,WAAf,EAA2B,OAAO,EAACA,OAAM,KAAP,EAAlC;AACC,sCAAK,KAAI,iCAAT,EAA2C,KAAI,QAA/C,EAAwD,OAAO,EAACA,OAAM,MAAP,EAA/D,GADD;AAEC;AAAA;AAAA,YAAK,WAAU,wBAAf;AACC;AAAA;AAAA;AAAA;AAAA;AADD;AAFD;AADD,QAjBD;AAyBC;AAAA;AAAA,UAAK,WAAU,qBAAf;AACC;AAAA;AAAA,WAAK,WAAU,WAAf,EAA2B,OAAO,EAACA,OAAM,KAAP,EAAlC;AACC,sCAAK,KAAI,iCAAT,EAA2C,KAAI,QAA/C,EAAwD,OAAO,EAACA,OAAM,MAAP,EAA/D,GADD;AAEC;AAAA;AAAA,YAAK,WAAU,wBAAf;AACC;AAAA;AAAA;AAAA;AAAA;AADD;AAFD;AADD;AAzBD;AADD;AADD;AAJD,IADD;AA6CA;;;;EAhDmBH,MAAMI,S;;AAmD3BC,OAAOC,OAAP,GAAiBJ,MAAjB",
+      "file": "Events.js",
+      "sourceRoot": "/app/views",
+      "sourcesContent": [
+        "const React = require('react');\n\nclass Events extends React.Component {\n\n\trender() {\n\t\treturn (\n\t\t\t<div>\n       <div className=\"w3-container\">\n\t\t\t\t<h1>Upcoming Events</h1>\n       </div>\n\t\t\t\t<div>\n\t\t\t\t\t<div className=\"w3-row w3-container\">\n\t\t\t\t\t\t<div className=\"w3-row\">\n\t\t\t\t\t\t\t<div className=\"w3-col m3 w3-center\">\n\t\t\t\t\t\t\t\t<div className=\"w3-card-4\" style={{width:'90%'}}>\n\t\t\t\t\t\t\t\t\t<img src=\"https://i.imgur.com/3fAd0w8.gif\" alt=\"Norway\" style={{width:'100%'}}/>\n\t\t\t\t\t\t\t\t\t<div className=\"w3-container w3-center\">\n\t\t\t\t\t\t\t\t\t\t<p>MIS Club</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div className=\"w3-col m3 w3-center\">\n\t\t\t\t\t\t\t\t<div className=\"w3-card-4\" style={{width:'90%'}}>\n\t\t\t\t\t\t\t\t\t<img src=\"https://i.imgur.com/3fAd0w8.gif\" alt=\"Norway\" style={{width:'100%'}}/>\n\t\t\t\t\t\t\t\t\t<div className=\"w3-container w3-center\">\n\t\t\t\t\t\t\t\t\t\t<p>MIS Club</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div className=\"w3-col m3 w3-center\">\n\t\t\t\t\t\t\t\t<div className=\"w3-card-4\" style={{width:'90%'}}>\n\t\t\t\t\t\t\t\t\t<img src=\"https://i.imgur.com/3fAd0w8.gif\" alt=\"Norway\" style={{width:'100%'}}/>\n\t\t\t\t\t\t\t\t\t<div className=\"w3-container w3-center\">\n\t\t\t\t\t\t\t\t\t\t<p>MIS Club</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t<div className=\"w3-col m3 w3-center\">\n\t\t\t\t\t\t\t\t<div className=\"w3-card-4\" style={{width:'90%'}}>\n\t\t\t\t\t\t\t\t\t<img src=\"https://i.imgur.com/3fAd0w8.gif\" alt=\"Norway\" style={{width:'100%'}}/>\n\t\t\t\t\t\t\t\t\t<div className=\"w3-container w3-center\">\n\t\t\t\t\t\t\t\t\t\t<p>MIS Club</p>\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t);\n\t}\n}\n\nmodule.exports = Events;"
+      ]
+    },
+    "mtime": 1508611274271
+  },
+  "{\"filename\":\"/app/views/StuOrgs.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/views\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "inherits",
+        "possibleConstructorReturn",
+        "createClass",
+        "classCallCheck"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/views/StuOrgs.js",
+      "filenameRelative": "/app/views/StuOrgs.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "StuOrgs.js",
+      "sourceFileName": "StuOrgs.js",
+      "sourceRoot": "/app/views",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/views",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "StuOrgs"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\n\nvar StuOrgs = function (_React$Component) {\n\t_inherits(StuOrgs, _React$Component);\n\n\tfunction StuOrgs() {\n\t\t_classCallCheck(this, StuOrgs);\n\n\t\treturn _possibleConstructorReturn(this, (StuOrgs.__proto__ || Object.getPrototypeOf(StuOrgs)).apply(this, arguments));\n\t}\n\n\t_createClass(StuOrgs, [{\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\treturn React.createElement(\n\t\t\t\t'h1',\n\t\t\t\tnull,\n\t\t\t\t'StuOrgs'\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn StuOrgs;\n}(React.Component);\n\nmodule.exports = StuOrgs;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlN0dU9yZ3MuanMiXSwibmFtZXMiOlsiUmVhY3QiLCJyZXF1aXJlIiwiU3R1T3JncyIsIkNvbXBvbmVudCIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQSxJQUFNQSxRQUFRQyxRQUFRLE9BQVIsQ0FBZDs7SUFFTUMsTzs7Ozs7Ozs7Ozs7MkJBRUk7QUFDUixVQUNDO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFERDtBQUdBOzs7O0VBTm9CRixNQUFNRyxTOztBQVM1QkMsT0FBT0MsT0FBUCxHQUFpQkgsT0FBakIiLCJmaWxlIjoiU3R1T3Jncy5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3ZpZXdzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5jbGFzcyBTdHVPcmdzIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblxuXHRyZW5kZXIoKSB7XG5cdFx0cmV0dXJuIChcblx0XHRcdDxoMT5TdHVPcmdzPC9oMT5cblx0XHQpO1xuXHR9XG59XG5cbm1vZHVsZS5leHBvcnRzID0gU3R1T3JnczsiXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "StuOrgs.js"
+      ],
+      "names": [
+        "React",
+        "require",
+        "StuOrgs",
+        "Component",
+        "module",
+        "exports"
+      ],
+      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;;IAEMC,O;;;;;;;;;;;2BAEI;AACR,UACC;AAAA;AAAA;AAAA;AAAA,IADD;AAGA;;;;EANoBF,MAAMG,S;;AAS5BC,OAAOC,OAAP,GAAiBH,OAAjB",
+      "file": "StuOrgs.js",
+      "sourceRoot": "/app/views",
+      "sourcesContent": [
+        "const React = require('react');\n\nclass StuOrgs extends React.Component {\n\n\trender() {\n\t\treturn (\n\t\t\t<h1>StuOrgs</h1>\n\t\t);\n\t}\n}\n\nmodule.exports = StuOrgs;"
+      ]
+    },
+    "mtime": 1508608389991
+  },
+  "{\"filename\":\"/app/views/Profile.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/views\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "inherits",
+        "possibleConstructorReturn",
+        "createClass",
+        "classCallCheck"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/views/Profile.js",
+      "filenameRelative": "/app/views/Profile.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "Profile.js",
+      "sourceFileName": "Profile.js",
+      "sourceRoot": "/app/views",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/views",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "Profile"
+    },
+    "ignored": false,
+    "code": "'use strict';\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\n\nvar Profile = function (_React$Component) {\n\t_inherits(Profile, _React$Component);\n\n\tfunction Profile() {\n\t\t_classCallCheck(this, Profile);\n\n\t\treturn _possibleConstructorReturn(this, (Profile.__proto__ || Object.getPrototypeOf(Profile)).apply(this, arguments));\n\t}\n\n\t_createClass(Profile, [{\n\t\tkey: 'render',\n\t\tvalue: function render() {\n\t\t\treturn React.createElement(\n\t\t\t\t'h1',\n\t\t\t\tnull,\n\t\t\t\t'Profile'\n\t\t\t);\n\t\t}\n\t}]);\n\n\treturn Profile;\n}(React.Component);\n\nmodule.exports = Profile;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlByb2ZpbGUuanMiXSwibmFtZXMiOlsiUmVhY3QiLCJyZXF1aXJlIiwiUHJvZmlsZSIsIkNvbXBvbmVudCIsIm1vZHVsZSIsImV4cG9ydHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7QUFBQSxJQUFNQSxRQUFRQyxRQUFRLE9BQVIsQ0FBZDs7SUFFTUMsTzs7Ozs7Ozs7Ozs7MkJBRUk7QUFDUixVQUNDO0FBQUE7QUFBQTtBQUFBO0FBQUEsSUFERDtBQUdBOzs7O0VBTm9CRixNQUFNRyxTOztBQVM1QkMsT0FBT0MsT0FBUCxHQUFpQkgsT0FBakIiLCJmaWxlIjoiUHJvZmlsZS5qcyIsInNvdXJjZVJvb3QiOiIvYXBwL3ZpZXdzIiwic291cmNlc0NvbnRlbnQiOlsiY29uc3QgUmVhY3QgPSByZXF1aXJlKCdyZWFjdCcpO1xuXG5jbGFzcyBQcm9maWxlIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50IHtcblxuXHRyZW5kZXIoKSB7XG5cdFx0cmV0dXJuIChcblx0XHRcdDxoMT5Qcm9maWxlPC9oMT5cblx0XHQpO1xuXHR9XG59XG5cbm1vZHVsZS5leHBvcnRzID0gUHJvZmlsZTsiXX0=",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "Profile.js"
+      ],
+      "names": [
+        "React",
+        "require",
+        "Profile",
+        "Component",
+        "module",
+        "exports"
+      ],
+      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;;IAEMC,O;;;;;;;;;;;2BAEI;AACR,UACC;AAAA;AAAA;AAAA;AAAA,IADD;AAGA;;;;EANoBF,MAAMG,S;;AAS5BC,OAAOC,OAAP,GAAiBH,OAAjB",
+      "file": "Profile.js",
+      "sourceRoot": "/app/views",
+      "sourcesContent": [
+        "const React = require('react');\n\nclass Profile extends React.Component {\n\n\trender() {\n\t\treturn (\n\t\t\t<h1>Profile</h1>\n\t\t);\n\t}\n}\n\nmodule.exports = Profile;"
+      ]
+    },
+    "mtime": 1508608389987
+  },
+  "{\"filename\":\"/app/views/Login.js\",\"env\":{\"development\":{\"plugins\":[]}},\"retainLines\":false,\"highlightCode\":true,\"suppressDeprecationMessages\":false,\"presets\":[],\"plugins\":[[[],{\"loose\":false,\"spec\":false}],[[],null],[[],null],[[],{\"spec\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"loose\":false}],[[],null],[[],null],[[],null],[[],{\"loose\":false}],[[],null],[[],{\"loose\":false}],[[],null],[[],null],[[],{\"loose\":false}],[[],{\"async\":false,\"asyncGenerators\":false}],[[],null],[[],null],[[],null],[[],null]],\"ignore\":[],\"code\":true,\"metadata\":true,\"ast\":true,\"comments\":true,\"compact\":\"auto\",\"minified\":false,\"sourceRoot\":\"/app/views\",\"babelrc\":true,\"sourceType\":\"module\",\"moduleIds\":false,\"passPerPreset\":false,\"parserOpts\":false,\"generatorOpts\":false}:6.26.0": {
+    "metadata": {
+      "usedHelpers": [
+        "inherits",
+        "possibleConstructorReturn",
+        "createClass",
+        "classCallCheck"
+      ],
+      "marked": [],
+      "modules": {
+        "imports": [],
+        "exports": {
+          "exported": [],
+          "specifiers": []
+        }
+      }
+    },
+    "options": {
+      "filename": "/app/views/Login.js",
+      "filenameRelative": "/app/views/Login.js",
+      "env": {},
+      "retainLines": false,
+      "highlightCode": true,
+      "suppressDeprecationMessages": false,
+      "presets": [],
+      "plugins": [
+        [
+          [],
+          {
+            "loose": false,
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "spec": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          {
+            "loose": false
+          }
+        ],
+        [
+          [],
+          {
+            "async": false,
+            "asyncGenerators": false
+          }
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ],
+        [
+          [],
+          null
+        ]
+      ],
+      "ignore": [],
+      "code": true,
+      "metadata": true,
+      "ast": false,
+      "comments": true,
+      "compact": "auto",
+      "minified": false,
+      "sourceMaps": "both",
+      "sourceMapTarget": "Login.js",
+      "sourceFileName": "Login.js",
+      "sourceRoot": "/app/views",
+      "babelrc": false,
+      "sourceType": "module",
+      "moduleRoot": "/app/views",
+      "moduleIds": false,
+      "passPerPreset": false,
+      "parserOpts": false,
+      "generatorOpts": false,
+      "basename": "Login"
+    },
+    "ignored": false,
+    "code": "\"use strict\";\n\nvar _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if (\"value\" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();\n\nfunction _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError(\"Cannot call a class as a function\"); } }\n\nfunction _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError(\"this hasn't been initialised - super() hasn't been called\"); } return call && (typeof call === \"object\" || typeof call === \"function\") ? call : self; }\n\nfunction _inherits(subClass, superClass) { if (typeof superClass !== \"function\" && superClass !== null) { throw new TypeError(\"Super expression must either be null or a function, not \" + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }\n\nvar React = require('react');\n\nvar Login = function (_React$Component) {\n  _inherits(Login, _React$Component);\n\n  function Login() {\n    _classCallCheck(this, Login);\n\n    return _possibleConstructorReturn(this, (Login.__proto__ || Object.getPrototypeOf(Login)).apply(this, arguments));\n  }\n\n  _createClass(Login, [{\n    key: \"render\",\n    value: function render() {\n      return React.createElement(\n        \"div\",\n        null,\n        React.createElement(\n          \"div\",\n          { className: \"field\" },\n          React.createElement(\n            \"label\",\n            { className: \"label\" },\n            \"Email\"\n          ),\n          React.createElement(\n            \"div\",\n            { className: \"control has-icons-left has-icons-right\" },\n            React.createElement(\"input\", { className: \"input is-danger\", type: \"email\", placeholder: \"example@email.com\", value: \"\" }),\n            React.createElement(\n              \"span\",\n              { className: \"icon is-small is-left\" },\n              React.createElement(\"i\", { className: \"fa fa-envelope\" })\n            ),\n            React.createElement(\n              \"span\",\n              { className: \"icon is-small is-right\" },\n              React.createElement(\"i\", { className: \"fa fa-warning\" })\n            )\n          ),\n          React.createElement(\n            \"p\",\n            { className: \"help is-danger\" },\n            \"This email is invalid\"\n          )\n        ),\n        React.createElement(\n          \"div\",\n          { className: \"field\" },\n          React.createElement(\n            \"p\",\n            { className: \"control has-icons-left\" },\n            React.createElement(\"input\", { className: \"input\", type: \"password\", placeholder: \"Password\" }),\n            React.createElement(\n              \"span\",\n              { className: \"icon is-small is-left\" },\n              React.createElement(\"i\", { className: \"fa fa-lock\" })\n            )\n          )\n        ),\n        React.createElement(\n          \"div\",\n          { className: \"field\" },\n          React.createElement(\n            \"label\",\n            { className: \"label\" },\n            \"Position\"\n          ),\n          React.createElement(\n            \"div\",\n            { className: \"control\" },\n            React.createElement(\n              \"div\",\n              { className: \"select\" },\n              React.createElement(\n                \"select\",\n                null,\n                React.createElement(\n                  \"option\",\n                  null,\n                  \"Officer\"\n                ),\n                React.createElement(\n                  \"option\",\n                  null,\n                  \"Student Member\"\n                )\n              )\n            )\n          )\n        ),\n        React.createElement(\n          \"div\",\n          { className: \"field is-grouped\" },\n          React.createElement(\n            \"div\",\n            { className: \"control\" },\n            React.createElement(\n              \"button\",\n              { className: \"button is-link\" },\n              \"Submit\"\n            )\n          ),\n          React.createElement(\n            \"div\",\n            { className: \"control\" },\n            React.createElement(\n              \"button\",\n              { className: \"button is-text\" },\n              \"Cancel\"\n            )\n          )\n        )\n      );\n    }\n  }]);\n\n  return Login;\n}(React.Component);\n\nmodule.exports = Login;\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkxvZ2luLmpzIl0sIm5hbWVzIjpbIlJlYWN0IiwicmVxdWlyZSIsIkxvZ2luIiwiQ29tcG9uZW50IiwibW9kdWxlIiwiZXhwb3J0cyJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7OztBQUFBLElBQU1BLFFBQVFDLFFBQVEsT0FBUixDQUFkOztJQUVNQyxLOzs7Ozs7Ozs7Ozs2QkFFSTtBQUNSLGFBQ0k7QUFBQTtBQUFBO0FBQ0U7QUFBQTtBQUFBLFlBQUssV0FBVSxPQUFmO0FBQ0U7QUFBQTtBQUFBLGNBQU8sV0FBVSxPQUFqQjtBQUFBO0FBQUEsV0FERjtBQUVFO0FBQUE7QUFBQSxjQUFLLFdBQVUsd0NBQWY7QUFDRSwyQ0FBTyxXQUFVLGlCQUFqQixFQUFtQyxNQUFLLE9BQXhDLEVBQWdELGFBQVksbUJBQTVELEVBQWdGLE9BQU0sRUFBdEYsR0FERjtBQUVFO0FBQUE7QUFBQSxnQkFBTSxXQUFVLHVCQUFoQjtBQUNFLHlDQUFHLFdBQVUsZ0JBQWI7QUFERixhQUZGO0FBS0U7QUFBQTtBQUFBLGdCQUFNLFdBQVUsd0JBQWhCO0FBQ0UseUNBQUcsV0FBVSxlQUFiO0FBREY7QUFMRixXQUZGO0FBV0U7QUFBQTtBQUFBLGNBQUcsV0FBVSxnQkFBYjtBQUFBO0FBQUE7QUFYRixTQURGO0FBZUU7QUFBQTtBQUFBLFlBQUssV0FBVSxPQUFmO0FBQ0U7QUFBQTtBQUFBLGNBQUcsV0FBVSx3QkFBYjtBQUNFLDJDQUFPLFdBQVUsT0FBakIsRUFBeUIsTUFBSyxVQUE5QixFQUF5QyxhQUFZLFVBQXJELEdBREY7QUFFRTtBQUFBO0FBQUEsZ0JBQU0sV0FBVSx1QkFBaEI7QUFDRSx5Q0FBRyxXQUFVLFlBQWI7QUFERjtBQUZGO0FBREYsU0FmRjtBQXlCRTtBQUFBO0FBQUEsWUFBSyxXQUFVLE9BQWY7QUFDRTtBQUFBO0FBQUEsY0FBTyxXQUFVLE9BQWpCO0FBQUE7QUFBQSxXQURGO0FBRUU7QUFBQTtBQUFBLGNBQUssV0FBVSxTQUFmO0FBQ0U7QUFBQTtBQUFBLGdCQUFLLFdBQVUsUUFBZjtBQUNFO0FBQUE7QUFBQTtBQUNFO0FBQUE7QUFBQTtBQUFBO0FBQUEsaUJBREY7QUFFRTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBRkY7QUFERjtBQURGO0FBRkYsU0F6QkY7QUFzQ0U7QUFBQTtBQUFBLFlBQUssV0FBVSxrQkFBZjtBQUNJO0FBQUE7QUFBQSxjQUFLLFdBQVUsU0FBZjtBQUNFO0FBQUE7QUFBQSxnQkFBUSxXQUFVLGdCQUFsQjtBQUFBO0FBQUE7QUFERixXQURKO0FBSUk7QUFBQTtBQUFBLGNBQUssV0FBVSxTQUFmO0FBQ0U7QUFBQTtBQUFBLGdCQUFRLFdBQVUsZ0JBQWxCO0FBQUE7QUFBQTtBQURGO0FBSko7QUF0Q0YsT0FESjtBQWlEQTs7OztFQXBEa0JGLE1BQU1HLFM7O0FBdUQxQkMsT0FBT0MsT0FBUCxHQUFpQkgsS0FBakIiLCJmaWxlIjoiTG9naW4uanMiLCJzb3VyY2VSb290IjoiL2FwcC92aWV3cyIsInNvdXJjZXNDb250ZW50IjpbImNvbnN0IFJlYWN0ID0gcmVxdWlyZSgncmVhY3QnKTtcblxuY2xhc3MgTG9naW4gZXh0ZW5kcyBSZWFjdC5Db21wb25lbnQge1xuXG5cdHJlbmRlcigpIHtcblx0XHRyZXR1cm4gKFxuICAgICAgPGRpdj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmaWVsZFwiPlxuICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9XCJsYWJlbFwiPkVtYWlsPC9sYWJlbD5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRyb2wgaGFzLWljb25zLWxlZnQgaGFzLWljb25zLXJpZ2h0XCI+XG4gICAgICAgICAgICA8aW5wdXQgY2xhc3NOYW1lPVwiaW5wdXQgaXMtZGFuZ2VyXCIgdHlwZT1cImVtYWlsXCIgcGxhY2Vob2xkZXI9XCJleGFtcGxlQGVtYWlsLmNvbVwiIHZhbHVlPVwiXCIvPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiaWNvbiBpcy1zbWFsbCBpcy1sZWZ0XCI+XG4gICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImZhIGZhLWVudmVsb3BlXCI+PC9pPlxuICAgICAgICAgICAgPC9zcGFuPlxuICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPVwiaWNvbiBpcy1zbWFsbCBpcy1yaWdodFwiPlxuICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJmYSBmYS13YXJuaW5nXCI+PC9pPlxuICAgICAgICAgICAgPC9zcGFuPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImhlbHAgaXMtZGFuZ2VyXCI+VGhpcyBlbWFpbCBpcyBpbnZhbGlkPC9wPlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZpZWxkXCI+XG4gICAgICAgICAgPHAgY2xhc3NOYW1lPVwiY29udHJvbCBoYXMtaWNvbnMtbGVmdFwiPlxuICAgICAgICAgICAgPGlucHV0IGNsYXNzTmFtZT1cImlucHV0XCIgdHlwZT1cInBhc3N3b3JkXCIgcGxhY2Vob2xkZXI9XCJQYXNzd29yZFwiLz5cbiAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT1cImljb24gaXMtc21hbGwgaXMtbGVmdFwiPlxuICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJmYSBmYS1sb2NrXCI+PC9pPlxuICAgICAgICAgICAgPC9zcGFuPlxuICAgICAgICAgIDwvcD5cbiAgICAgICAgPC9kaXY+XG5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZpZWxkXCI+XG4gICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT1cImxhYmVsXCI+UG9zaXRpb248L2xhYmVsPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udHJvbFwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzZWxlY3RcIj5cbiAgICAgICAgICAgICAgPHNlbGVjdD5cbiAgICAgICAgICAgICAgICA8b3B0aW9uPk9mZmljZXI8L29wdGlvbj5cbiAgICAgICAgICAgICAgICA8b3B0aW9uPlN0dWRlbnQgTWVtYmVyPC9vcHRpb24+XG4gICAgICAgICAgICAgIDwvc2VsZWN0PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuXG5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmaWVsZCBpcy1ncm91cGVkXCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRyb2xcIj5cbiAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidXR0b24gaXMtbGlua1wiPlN1Ym1pdDwvYnV0dG9uPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRyb2xcIj5cbiAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidXR0b24gaXMtdGV4dFwiPkNhbmNlbDwvYnV0dG9uPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG5cdFx0KTtcblx0fVxufVxuXG5tb2R1bGUuZXhwb3J0cyA9IExvZ2luOyJdfQ==",
+    "ast": null,
+    "map": {
+      "version": 3,
+      "sources": [
+        "Login.js"
+      ],
+      "names": [
+        "React",
+        "require",
+        "Login",
+        "Component",
+        "module",
+        "exports"
+      ],
+      "mappings": ";;;;;;;;;;AAAA,IAAMA,QAAQC,QAAQ,OAAR,CAAd;;IAEMC,K;;;;;;;;;;;6BAEI;AACR,aACI;AAAA;AAAA;AACE;AAAA;AAAA,YAAK,WAAU,OAAf;AACE;AAAA;AAAA,cAAO,WAAU,OAAjB;AAAA;AAAA,WADF;AAEE;AAAA;AAAA,cAAK,WAAU,wCAAf;AACE,2CAAO,WAAU,iBAAjB,EAAmC,MAAK,OAAxC,EAAgD,aAAY,mBAA5D,EAAgF,OAAM,EAAtF,GADF;AAEE;AAAA;AAAA,gBAAM,WAAU,uBAAhB;AACE,yCAAG,WAAU,gBAAb;AADF,aAFF;AAKE;AAAA;AAAA,gBAAM,WAAU,wBAAhB;AACE,yCAAG,WAAU,eAAb;AADF;AALF,WAFF;AAWE;AAAA;AAAA,cAAG,WAAU,gBAAb;AAAA;AAAA;AAXF,SADF;AAeE;AAAA;AAAA,YAAK,WAAU,OAAf;AACE;AAAA;AAAA,cAAG,WAAU,wBAAb;AACE,2CAAO,WAAU,OAAjB,EAAyB,MAAK,UAA9B,EAAyC,aAAY,UAArD,GADF;AAEE;AAAA;AAAA,gBAAM,WAAU,uBAAhB;AACE,yCAAG,WAAU,YAAb;AADF;AAFF;AADF,SAfF;AAyBE;AAAA;AAAA,YAAK,WAAU,OAAf;AACE;AAAA;AAAA,cAAO,WAAU,OAAjB;AAAA;AAAA,WADF;AAEE;AAAA;AAAA,cAAK,WAAU,SAAf;AACE;AAAA;AAAA,gBAAK,WAAU,QAAf;AACE;AAAA;AAAA;AACE;AAAA;AAAA;AAAA;AAAA,iBADF;AAEE;AAAA;AAAA;AAAA;AAAA;AAFF;AADF;AADF;AAFF,SAzBF;AAsCE;AAAA;AAAA,YAAK,WAAU,kBAAf;AACI;AAAA;AAAA,cAAK,WAAU,SAAf;AACE;AAAA;AAAA,gBAAQ,WAAU,gBAAlB;AAAA;AAAA;AADF,WADJ;AAII;AAAA;AAAA,cAAK,WAAU,SAAf;AACE;AAAA;AAAA,gBAAQ,WAAU,gBAAlB;AAAA;AAAA;AADF;AAJJ;AAtCF,OADJ;AAiDA;;;;EApDkBF,MAAMG,S;;AAuD1BC,OAAOC,OAAP,GAAiBH,KAAjB",
+      "file": "Login.js",
+      "sourceRoot": "/app/views",
+      "sourcesContent": [
+        "const React = require('react');\n\nclass Login extends React.Component {\n\n\trender() {\n\t\treturn (\n      <div>\n        <div className=\"field\">\n          <label className=\"label\">Email</label>\n          <div className=\"control has-icons-left has-icons-right\">\n            <input className=\"input is-danger\" type=\"email\" placeholder=\"example@email.com\" value=\"\"/>\n            <span className=\"icon is-small is-left\">\n              <i className=\"fa fa-envelope\"></i>\n            </span>\n            <span className=\"icon is-small is-right\">\n              <i className=\"fa fa-warning\"></i>\n            </span>\n          </div>\n          <p className=\"help is-danger\">This email is invalid</p>\n        </div>\n\n        <div className=\"field\">\n          <p className=\"control has-icons-left\">\n            <input className=\"input\" type=\"password\" placeholder=\"Password\"/>\n            <span className=\"icon is-small is-left\">\n              <i className=\"fa fa-lock\"></i>\n            </span>\n          </p>\n        </div>\n\n\n        <div className=\"field\">\n          <label className=\"label\">Position</label>\n          <div className=\"control\">\n            <div className=\"select\">\n              <select>\n                <option>Officer</option>\n                <option>Student Member</option>\n              </select>\n            </div>\n          </div>\n        </div>\n\n\n        <div className=\"field is-grouped\">\n            <div className=\"control\">\n              <button className=\"button is-link\">Submit</button>\n            </div>\n            <div className=\"control\">\n              <button className=\"button is-text\">Cancel</button>\n            </div>\n        </div>\n      </div>\n\t\t);\n\t}\n}\n\nmodule.exports = Login;"
+      ]
+    },
+    "mtime": 1508608886122
   }
 }
