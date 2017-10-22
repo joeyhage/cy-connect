@@ -57,8 +57,8 @@ app.post('/authorize', (req, res) => {
 			if (results && results.length) {
 				authorized = {...results[0]};
 				connection.query(
-					'SELECT * FROM checkin.Membership WHERE role IS NOT NULL AND netId=?',
-					[netid],
+					'SELECT * FROM checkin.Membership WHERE role IS NOT NULL AND role!=? AND netId=?',
+					['', netid],
 					(error, results) => {
 						if (error) {
 							console.error(error);

@@ -122,7 +122,7 @@ class AdminDashboard extends React.Component {
 const populateStuorgs = stuorgs => {
 	if (stuorgs) {
 		return stuorgs.map(stuorg => (
-			<div key={stuorg.stuorgId} className="tile is-parent">
+			<div key={'admin-'+stuorg.stuorgId} className="tile is-parent">
 				<article className="tile is-child box">
 					<p className="title">{stuorg.stuorgName}</p>
 				</article>
