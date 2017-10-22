@@ -23,7 +23,7 @@ class App extends React.Component {
 				<meta httpEquiv="X-UA-Compatible" content="IE=edge"/>
 				<meta name="viewport" content="width=device-width, initial-scale=1"/>
 				<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/>
-				<link rel="stylesheet" href="https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2Fbulma.css?1508558261423"/>
+				<link rel="stylesheet" href="https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FCyconnect.png?1508653717733"/>
         		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
 				<link rel="stylesheet" href="/stylesheets/main.css"/>
 				<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css"/>
