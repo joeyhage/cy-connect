@@ -6,7 +6,6 @@ class Home extends React.Component {
 	constructor(props) {
 		super(props);
 
-		console.log(JSON.stringify(props));
 		this.state = {
 			studentOrgs: populateStuorgTable(props.pageProps.stuorgDetails),
 			upcomingEvents: populateEventTable(props.pageProps.stuorgEvents)
@@ -16,9 +15,15 @@ class Home extends React.Component {
 	render() {
 		return (
 			<div className='container'>
+				<div className="tabs" style={{display: 'block', margin: 'auto', width: '83%'}}>
+					<ul>
+						<li><a href="#upcoming">Your Upcoming Events</a></li>
+						<li><a href="#stuorgs">Your Student Organizations</a></li>
+					</ul>
+				</div>
 				<div className="columns is-mobile" style={{marginTop: '10vh'}}>
 					<div className="column is-10-desktop is-10-tablet is-12-mobile">
-						<h4 style={style.h4}>Your Upcoming Events</h4>
+						<h3 id="upcoming" style={style.h3}>Your Upcoming Events</h3>
 						<div className="box">
 							<table className='table is-striped is-hoverable'>
 								<thead>
@@ -32,7 +37,7 @@ class Home extends React.Component {
 								</tr>
 								</thead>
 								<tbody>
-								{this.state.upcomingEvents}
+									{this.state.upcomingEvents}
 								</tbody>
 							</table>
 						</div>
@@ -40,7 +45,7 @@ class Home extends React.Component {
 				</div>
 				<div className="columns is-mobile" style={{marginTop: '5vh'}}>
 					<div className="column is-6-desktop is-8-tablet is-10-mobile">
-						<h4 style={style.h4}>Your Student Organizations</h4>
+						<h3 id="stuorgs" style={style.h3}>Your Student Organizations</h3>
 						<div className="box">
 							<table className='table is-striped is-hoverable'>
 								<thead>
@@ -50,7 +55,7 @@ class Home extends React.Component {
 								</tr>
 								</thead>
 								<tbody>
-								{this.state.studentOrgs}
+									{this.state.studentOrgs}
 								</tbody>
 							</table>
 						</div>
@@ -93,9 +98,10 @@ const populateEventTable = stuorgEvents => {
 
 const red = '#C21D2f';
 const style = {
-	h4: {
+	h3: {
 		color: red,
-		fontWeight: 'bold'
+		fontWeight: 'bold',
+		fontSize: '20px'
 	}
 };
 

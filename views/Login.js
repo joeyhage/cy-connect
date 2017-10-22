@@ -26,7 +26,7 @@ class Login extends React.Component {
 									<input className="input" id="netid" type="text" placeholder="Net-ID"
 										   pattern="[a-z0-9]{3,8}" name="netid"
 										   title="Your Net-ID is 3 to 8 characters long and consists of lowercase letters (and optionally numeric digits)."
-										   value={this.state.netid} onChange={this.handleChange}/>
+										   value={this.state.netid} onChange={this.handleChange} autoFocus/>
 									<span className="icon is-small is-left"><i className="fa fa-user-o"/></span>
 								</div>
 							</div>
