@@ -20,3 +20,14 @@ document.querySelector('body').addEventListener('click', event => {
 		document.getElementById('navMenu').classList.toggle('is-active');
 	}
 });
+
+var data = [{
+  x: ['Attendance', 'Freshman', 'Sophomore','Junior','Senior'],
+  y: [350,15,75,25,50,50],
+  marker:{
+    color: ['rgba(222,45,38,0.8)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)']
+  },
+  type: 'bar'
+}];
+
+Plotly.newPlot('myDiv', data);
