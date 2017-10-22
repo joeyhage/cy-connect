@@ -31,7 +31,7 @@ class App extends React.Component {
 				<script src="/js/jquery.min.js"/>
 			</head>
 			<body style={{backgroundColor:'#F5F5F5', height:'100%'}}>
-				<Nav path={this.props.path}/>
+				<Nav path={this.props.path} pageProps={this.props.pageProps}/>
 				{this.props.page === 'Home' &&
 					<Home pageProps={this.props.pageProps}/>
 				}

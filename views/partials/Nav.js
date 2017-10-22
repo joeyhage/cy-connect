@@ -11,14 +11,16 @@ class Nav extends React.Component {
 						<img
 							src="https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FUntitled.png?1508555216206"/>
 					</a>
-					<button className="button navbar-burger">
-						<span/>
-						<span/>
-						<span/>
-					</button>
+					{this.props.path !== '/login' &&
+						<button className="button navbar-burger" id="navBurger">
+							<span/>
+							<span/>
+							<span/>
+						</button>
+					}
 				</div>
 				{this.props.path !== '/login' &&
-					<div className="navbar-menu">
+					<div className="navbar-menu" id="navMenu">
 						<div className="navbar-start">
 							<a href="/" className={`navbar-item ${this.isActivePage('/')}`}>
 								Home
@@ -33,7 +35,7 @@ class Nav extends React.Component {
 						<div className="navbar-end">
 							<div className="navbar-item has-dropdown is-hoverable">
 								<a className="navbar-link">
-									User
+									{this.props.pageProps.user.firstName}
 								</a>
 								<div className="navbar-dropdown is-right">
 									<a href="/profile" className={`navbar-item ${this.isActivePage('/profile')}`}>

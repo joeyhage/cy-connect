@@ -1,14 +1,36 @@
-.navbar-dropdown>.navbar-item:hover, .navbar-dropdown>a.navbar-item.is-active, .navbar-dropdown>a.navbar-item.is-active:hover {
-    color: #000 !important;
-    background-color: #FFF !important;
+@media (min-width: 768px) {
+    .navbar-dropdown>.navbar-item:hover, .navbar-dropdown>a.navbar-item.is-active, .navbar-dropdown>a.navbar-item.is-active:hover {
+        color: #000 !important;
+        background-color: #FFF !important;
+    }
+    a.navbar-item, a.navbar-link {
+        color: #FFF !important;
+    }
+    a.navbar-item:hover, a.navbar-item:active, a.navbar-item:active:hover, a.navbar-item.is-active,
+    a.navbar-item.is-active:hover, a.navbar-link:hover, a.navbar-link:active, a.navbar-link:active:hover{
+        color: #000 !important;
+    }
+    .navbar-dropdown.is-right {
+        background-color: gray !important;
+    }
 }
-a.navbar-item, a.navbar-link {
-    color: #FFF !important;
-}
-a.navbar-item:hover, a.navbar-item:active, a.navbar-item:active:hover, a.navbar-item.is-active,
-a.navbar-item.is-active:hover, a.navbar-link:hover, a.navbar-link:active, a.navbar-link:active:hover{
-    color: #000 !important;
-}
-.navbar-dropdown.is-right {
-    background-color: gray !important;
+
+@media (max-width: 767px) {
+    #navBurger {
+        background-color: #ffd83d;
+    }
+    .navbar-menu {
+        background-color: gray;
+    }
+    .navbar-item, .navbar-link {
+        color: #FFF;
+    }
+    .navbar-start>.navbar-item:hover, .navbar-dropdown>.navbar-item:hover, .navbar-item.is-active {
+        background-color: #ffd83d !important;
+        color: #000 !important;
+    }
+    .navbar-end>.navbar-item>.navbar-link:hover {
+        background-color: gray;
+        color: #FFF;
+    }
 }
