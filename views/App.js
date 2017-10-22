@@ -27,6 +27,7 @@ class App extends React.Component {
 				<link rel="stylesheet" href="/stylesheets/main.css"/>
 				<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.css"/>
 				<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.js"></script>
+				 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 				<script src="/js/jquery.min.js"/>
 			</head>
 			<body style={{backgroundColor:'#F5F5F5', height:'100%'}}>
