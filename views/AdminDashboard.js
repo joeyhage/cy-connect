@@ -5,7 +5,7 @@ class AdminDashboard extends React.Component {
 	render() {
 		return (
 			<div>
-				<section className="hero is-info welcome is-small">
+				<section className="hero is-dark welcome is-small">
 					<div className="hero-body">
 						<div className="container">
 							<h1 className="title">
