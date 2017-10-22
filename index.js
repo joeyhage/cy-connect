@@ -26,7 +26,9 @@ app.get('/*', async (req, res) => {
 		});
 		connection.connect();
 	}
-	if (authorized || req.path === '/login') {
+	if (req.path === '/logout') {
+		authorized = undefined;
+	} else if (authorized || req.path === '/login') {
 		const page = determinePage(req.path);
 		const pageProps = await getPageProps(page);
 		res.render(
@@ -37,9 +39,9 @@ app.get('/*', async (req, res) => {
 				pageProps
 			}
 		);
-	} else {
-		res.redirect('/login');
+		return;
 	}
+	res.redirect('/login');
 });
 
 app.post('/authorize', (req, res) => {
