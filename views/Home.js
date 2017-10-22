@@ -6,13 +6,11 @@ class Home extends React.Component {
 	render() {
 		return (
 			<div className='container'>
-				<div className="columns is-mobile" style={{marginTop: '20px'}}>
-					<div className="column is-1-tablet is-1-mobile"/>
+				<div className="columns is-mobile is-multiline is-centered" style={{marginTop: '20px'}}>
 					<div className="column is-5-desktop is-10-tablet is-10-mobile">
 						<h3 style={style.h3}>Your Upcoming Events</h3>
 						{populateEventTable(this.props.pageProps.stuorgEvents, 0)}
 					</div>
-					<div className="column is-1-desktop is-1-tablet is-1-mobile"/>
 					<div className="column is-5-desktop is-10-tablet is-10-mobile">
 						<h3 style={style.h3}>Your Student Organizations</h3>
 						{populateStuorgTable(this.props.pageProps.stuorgDetails, 0)}
