@@ -25,21 +25,7 @@ class Home extends React.Component {
 					<div className="column is-10-desktop is-10-tablet is-12-mobile">
 						<h3 id="upcoming" style={style.h3}>Your Upcoming Events</h3>
 						<div className="box">
-							<table className='table is-striped is-hoverable'>
-								<thead>
-								<tr>
-									<th>StuOrg Name</th>
-									<th>Event Name</th>
-									<th>Event Date</th>
-									<th>Event Location</th>
-									<th>Description</th>
-									<th>Cost</th>
-								</tr>
-								</thead>
-								<tbody>
-									{this.state.upcomingEvents}
-								</tbody>
-							</table>
+							{this.state.upcomingEvents}
 						</div>
 					</div>
 				</div>
@@ -47,17 +33,7 @@ class Home extends React.Component {
 					<div className="column is-6-desktop is-8-tablet is-10-mobile">
 						<h3 id="stuorgs" style={style.h3}>Your Student Organizations</h3>
 						<div className="box">
-							<table className='table is-striped is-hoverable'>
-								<thead>
-								<tr>
-									<th>StuOrg Name</th>
-									<th>Category</th>
-								</tr>
-								</thead>
-								<tbody>
-									{this.state.studentOrgs}
-								</tbody>
-							</table>
+							{this.state.studentOrgs}
 						</div>
 					</div>
 				</div>
@@ -83,14 +59,21 @@ const populateEventTable = stuorgEvents => {
 	console.dir(stuorgEvents);
 	if (stuorgEvents) {
 		return stuorgEvents.map((event, index) => (
-				<tr key={event.eventId}>
-					<td>{event.stuorgName}</td>
-					<td>{event.eventName}</td>
-					<td>{moment(event.date).format('MMM D, YY')}</td>
-					<td>{event.location}</td>
-					<td>{event.description}</td>
-					<td>{event.cost}</td>
-				</tr>
+			<div key={event.eventId} className="card">
+				<header className="card-header">
+					<p className="card-header-title">{event.eventName}</p>
+					<a href="#" className="card-header-icon" aria-label="more options">
+						Info
+						<span className="icon"><i className="fa fa-info-circle" aria-hidden="true"/></span>
+					</a>
+				</header>
+				<div className="card-content">
+					<div className="content">
+						<br/>
+						<time dateTime={event.date}>{moment(event.date).format('MMM D, YY')}</time>
+					</div>
+				</div>
+			</div>
 			)
 		);
 	}
