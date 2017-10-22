@@ -5,9 +5,8 @@ class AdminDashboard extends React.Component {
 	constructor(props) {
 		super(props);
 
-		console.log(JSON.stringify(props));
 		this.state = {
-			upcomingEvents: populateEventTable(props.pageProps.stuorgEvents)
+			stuorgs: populateStuorgs(props.pageProps.stuorgs)
 		}
 	}
 
@@ -18,11 +17,10 @@ class AdminDashboard extends React.Component {
 					<div className="hero-body">
 						<div className="container">
 							<h1 className="title">Hello, {this.props.pageProps.user.firstName}</h1>
-							<h2 className="subtitle">I hope you are having a great day!</h2>
 						</div>
 					</div>
 				</section>
-				<p style={{paddingTop: '20px'}}/>
+				<p style={{paddingTop:'20px'}}/>
 				<div className="container">
 					<div className="columns">
 						<div className="column is-6">
@@ -71,7 +69,7 @@ class AdminDashboard extends React.Component {
 							<div className="card events-card">
 								<header className="card-header">
 									<p className="card-header-title">Events</p>
-									
+
 								</header>
 								<div className="card-table">
 									<div className="content">
@@ -88,18 +86,7 @@ class AdminDashboard extends React.Component {
 					<div className="info-tiles">
 						<div className="title is-vertical is-8">
 							<div className="tile is-ancestor has-text-centered">
-								<div className="tile is-parent ">
-									<article className="tile is-child box">
-										<p className="title">439k</p>
-										<p className="subtitle">Users</p>
-									</article>
-								</div>
-								<div className="tile is-parent is-vertical">
-									<article className="tile is-child box">
-										<p className="title">19</p>
-										<p className="subtitle">Exceptions</p>
-									</article>
-								</div>
+								{this.state.stuorgs}
 							</div>
 						</div>
 					</div>
@@ -110,8 +97,19 @@ class AdminDashboard extends React.Component {
 	}
 }
 
+const populateStuorgs = stuorgs => {
+	if (stuorgs) {
+		return stuorgs.map(stuorg => (
+			<div key={stuorg.stuorgId} className="tile is-parent">
+				<article className="tile is-child box">
+					<p className="title">{stuorg.stuorgName}</p>
+				</article>
+			</div>
+		));
+	}
+};
+
 const populateEventTable = stuorgEvents => {
-	console.dir(stuorgEvents);
 	if (stuorgEvents) {
 		return stuorgEvents.map((event, index) => (
 			<tr key={event.eventId}>

@@ -64,7 +64,6 @@ app.post('/authorize', (req, res) => {
 							console.error(error);
 							return res.sendStatus(500);
 						}
-						console.dir(results);
 						if (results) {
 							authorized.adminRoles = results.map(result => result.stuorgId);
 						}
@@ -105,9 +104,21 @@ const getPageProps = async page => {
 		case 'Home':
 			const homePageProps = await getHomePageProps();
 			if (homePageProps) {
-				props.stuorgDetails = homePageProps.stuorgDetails;
-				props.stuorgEvents = homePageProps.stuorgEvents;
+				return {
+					...props,
+					...homePageProps
+				};
 			}
+			break;
+		case 'AdminDashboard':
+			const adminPageProps = await getAdminPageProps();
+			if (adminPageProps) {
+				return {
+					...props,
+					...adminPageProps
+				};
+			}
+			break;
 	}
 	return props;
 };
@@ -162,6 +173,22 @@ const getHomePageProps = () => {
 				} else {
 					resolve();
 				}
+			}
+		);
+	});
+};
+
+const getAdminPageProps = () => {
+	return new Promise((resolve, reject) => {
+		const stuorgIdSet = authorized.adminRoles.join(',');
+		connection.query(
+			'SELECT stuorgName FROM checkin.Stuorg WHERE stuorgId IN ('+stuorgIdSet+')',
+			(error, results) => {
+				if (error) {
+					console.error(error);
+					return reject();
+				}
+				resolve({stuorgs: results});
 			}
 		);
 	});

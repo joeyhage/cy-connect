@@ -43,22 +43,19 @@ class Home extends React.Component {
 }
 
 const populateStuorgTable = stuorgDetails => {
-	console.dir(stuorgDetails);
 	if (stuorgDetails) {
-		return stuorgDetails.map((stuorg, index) => (
-				<tr key={stuorg.stuorgId}>
-					<td>{stuorg.stuorgName}</td>
-					<td>{stuorg.category}</td>
-				</tr>
-			)
-		);
+		return stuorgDetails.map(stuorg => (
+			<tr key={stuorg.stuorgId}>
+				<td>{stuorg.stuorgName}</td>
+				<td>{stuorg.category}</td>
+			</tr>
+		));
 	}
 };
 
 const populateEventTable = stuorgEvents => {
-	console.dir(stuorgEvents);
 	if (stuorgEvents) {
-		return stuorgEvents.map((event, index) => (
+		return stuorgEvents.map(event => (
 			<div key={event.eventId} className="card">
 				<header className="card-header">
 					<p className="card-header-title">{event.eventName}</p>
@@ -74,8 +71,7 @@ const populateEventTable = stuorgEvents => {
 					</div>
 				</div>
 			</div>
-			)
-		);
+		));
 	}
 };
 
