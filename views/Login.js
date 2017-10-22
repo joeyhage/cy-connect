@@ -53,7 +53,6 @@ class Login extends React.Component {
 	}
 
 	handleChange({target}) {
-		console.log(target.id);
 		if (target.id === 'netid') {
 			this.setState({netid: target.value});
 		} else {

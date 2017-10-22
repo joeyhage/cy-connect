@@ -119,6 +119,15 @@ const getPageProps = async page => {
 				};
 			}
 			break;
+		case 'Events':
+			const results = await getEventpageEvents();
+			if (results){
+				return {
+					...props,
+					...results
+				};
+			}
+			break;
 	}
 	return props;
 };
@@ -176,6 +185,26 @@ const getHomePageProps = () => {
 				}
 			}
 		);
+	});
+};
+
+const getEventpageEvents = () => {
+	return new Promise((resolve, reject) => {
+		connection.query(
+			'SELECT checkin.Event.*, checkin.Stuorg.stuorgName ' +
+			'FROM checkin.Event ' +
+			'INNER JOIN checkin.Stuorg ON checkin.Event.stuorgId = checkin.Stuorg.stuorgId ' +
+			'WHERE checkin.Event.date>=? LIMIT 10',
+			[moment().format('YYYY-MM-DD')],
+			(error, results) => {
+				if (error) {
+					console.error(error);
+					return reject();
+				}
+				resolve({events: results});
+			}
+		);
+
 	});
 };
 

@@ -4,7 +4,7 @@ class StuOrgs extends React.Component {
 
 	render() {
 		return (
-			<h1>StuOrgs</h1>
+			<h1/>
 		);
 	}
 }

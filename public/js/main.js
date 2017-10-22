@@ -15,7 +15,6 @@ document.querySelector('body').addEventListener('submit', event => {
 });
 document.querySelector('body').addEventListener('click', event => {
 	const {target} = event;
-	console.log(target.id, target.className);
 	if (window.location.pathname === '/') {
 		const element = document.querySelector('.card.is-active');
 		if (element) {
@@ -25,13 +24,15 @@ document.querySelector('body').addEventListener('click', event => {
 			for (const eventDetail of nodeList) {
 				eventDetail.classList.toggle('is-hidden');
 			}
-		} else if (target.className === 'card-header-icon') {
+		} else if (target.className === 'card-header-icon' ||
+					target.className === 'icon' ||
+					target.className === 'fa fa-info-circle') {
 			event.preventDefault();
-			const parentElement = target.parentNode.parentNode;
-			parentElement.classList.toggle('is-active');
-			const nodeList = parentElement.querySelectorAll('.event-details');
+			const parentElement = $(target).closest('.home.card');
+			$(parentElement).toggleClass('is-active');
+			const nodeList = $(parentElement).find('.event-details');
 			for (const eventDetail of nodeList) {
-				eventDetail.classList.toggle('is-hidden');
+				$(eventDetail).toggleClass('is-hidden');
 			}
 		}
 	}
