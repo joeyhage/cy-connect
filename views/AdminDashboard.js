@@ -4,131 +4,129 @@ class AdminDashboard extends React.Component {
 
 	render() {
 		return (
-			        <div>
-            <section class="hero is-info welcome is-small">
-                <div class="hero-body">
-                    <div class="container">
-                        <h1 class="title">Hello, Admin.</h1>
-                        <h2 class="subtitle">I hope you are having a great day!</h2>
-                    </div>
-                </div>
-            </section>
-            <p style="padding-top:20px"></p>
-            <div class="container">
-                <div class="columns">
-                    <div class="column is-6">
-                        <div class="card">
-                            <header class="card-header">
-                                <p class="card-header-title">Event Search</p>
-                            </header>
-                            <div class="card-content">
-                                <div class="content">
-                                    <div class="control has-icons-left has-icons-right">
-                                        <input type="text" class="input is-large" placeholder=""/>
-                                        <span class="icon is-medium is-left">
-                                            <i class="fa fa-search"></i>
+			<div>
+				<section className="hero is-info welcome is-small">
+					<div className="hero-body">
+						<div className="container">
+							<h1 className="title">Hello, Admin.</h1>
+							<h2 className="subtitle">I hope you are having a great day!</h2>
+						</div>
+					</div>
+				</section>
+				<p style={{paddingTop: '20px'}}/>
+				<div className="container">
+					<div className="columns">
+						<div className="column is-6">
+							<div className="card">
+								<header className="card-header">
+									<p className="card-header-title">Event Search</p>
+								</header>
+								<div className="card-content">
+									<div className="content">
+										<div className="control has-icons-left has-icons-right">
+											<input type="text" className="input is-large" placeholder=""/>
+											<span className="icon is-medium is-left">
+                                            <i className="fa fa-search"/>
                                         </span>
-                                        <span class="icon is-medium is-right">
-                                            <i class="fa fa-check"></i>
+											<span className="icon is-medium is-right">
+                                            <i className="fa fa-check"/>
                                         </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column is-6">
-                        <div class="card">
-                            <header class="card-header">
-                                <p class="card-header-title">Member Search</p>
-                            </header>
-                            <div class="card-content">
-                                <div class="content">
-                                    <div class="control has-icons-left has-icons-right">
-                                        <input type="text" class="input is-large" placeholder=""/>
-                                        <span class="icon is-medium is-left">
-                                            <i class="fa fa-search"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="column is-6">
+							<div className="card">
+								<header className="card-header">
+									<p className="card-header-title">Member Search</p>
+								</header>
+								<div className="card-content">
+									<div className="content">
+										<div className="control has-icons-left has-icons-right">
+											<input type="text" className="input is-large" placeholder=""/>
+											<span className="icon is-medium is-left">
+                                            <i className="fa fa-search"/>
                                         </span>
-                                        <span class="icon is-medium is-right">
-                                            <i class="fa fa-check"></i>
+											<span className="icon is-medium is-right">
+                                            <i className="fa fa-check"/>
                                         </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <p style="padding-top:20px"></p>
-            <p style="padding-top:20px"></p>
-            <div class="w3-container columns">
-                <div class="column is-6">
-                    <div class="card events-card">
-                        <header class="card-header">
-                            <p class="card-header-title">Events</p>
-                            <a href="#" class="card-header-icon" aria-label="more options">
-                                <span class="icon">
-                                    <i class="fa fa-angle-down" aria-hidden="true"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="columns">
+						<div className="column is-12">
+							<div className="card events-card">
+								<header className="card-header">
+									<p className="card-header-title">Events</p>
+									<a href="#" className="card-header-icon" aria-label="more options">
+                                <span className="icon">
+                                    <i className="fa fa-angle-down" aria-hidden="true"/>
                                 </span>
-                            </a>
-                        </header>
-                        <div class="card-table">
-                            <div class="content">
-                                <table class="table is-fullwidth is-striped">
-                                    <tbody>
-                                        <tr>
-                                            <td width="5%">
-                                                <i class="fa fa-bell-o"></i>
-                                            </td>
-                                            <td>Lorum ipsum dolem aire</td>
-                                            <td>
-                                                <a class="button is-small is-danger" href="#">Delete</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td width="5%">
-                                                <i class="fa fa-bell-o"></i>
-                                            </td>
-                                            <td>Lorum ipsum dolem aire</td>
-                                            <td>
-                                                <a class="button is-small is-danger" href="#">Delete</a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td width="5%">
-                                                <i class="fa fa-bell-o"></i>
-                                            </td>
-                                            <td>Lorum ipsum dolem aire</td>
-                                            <td>
-                                                <a class="button is-small is-danger" href="#">Delete</a>
-                                            </td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="info-tiles">
-                    <div class="title is-vertical is-8">
-                        <div class="tile is-ancestor has-text-centered">
-                            <div class="tile is-parent ">
-                                <article class="tile is-child box">
-                                    <p class="title">439k</p>
-                                    <p classNaME="subtitle">Users</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent is-vertical">
-                                <article class="tile is-child box">
-                                    <p class="title">19</p>
-                                    <p class="subtitle">Exceptions</p>
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-			<div id="myDiv"></div>
-        </div>
+									</a>
+								</header>
+								<div className="card-table">
+									<div className="content">
+										<table className="table is-fullwidth is-striped">
+											<tbody>
+											<tr>
+												<td width="5%">
+													<i className="fa fa-bell-o"/>
+												</td>
+												<td>Lorum ipsum dolem aire</td>
+												<td>
+													<a className="button is-small is-danger" href="#">Delete</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="5%">
+													<i className="fa fa-bell-o"/>
+												</td>
+												<td>Lorum ipsum dolem aire</td>
+												<td>
+													<a className="button is-small is-danger" href="#">Delete</a>
+												</td>
+											</tr>
+											<tr>
+												<td width="5%">
+													<i className="fa fa-bell-o"/>
+												</td>
+												<td>Lorum ipsum dolem aire</td>
+												<td>
+													<a className="button is-small is-danger" href="#">Delete</a>
+												</td>
+											</tr>
+											</tbody>
+										</table>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="info-tiles">
+						<div className="title is-vertical is-8">
+							<div className="tile is-ancestor has-text-centered">
+								<div className="tile is-parent ">
+									<article className="tile is-child box">
+										<p className="title">439k</p>
+										<p className="subtitle">Users</p>
+									</article>
+								</div>
+								<div className="tile is-parent is-vertical">
+									<article className="tile is-child box">
+										<p className="title">19</p>
+										<p className="subtitle">Exceptions</p>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="myDiv"/>
+			</div>
 		);
 	}
 }

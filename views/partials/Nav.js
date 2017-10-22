@@ -10,7 +10,7 @@ class Nav extends React.Component {
 				<div className="navbar-brand">
 					<a className="navbar-item" href="/">
 						<img
-							src="https://cdn.glitch.com/d7caa6e3-7152-40ff-9cce-fd94636631bc%2FChecky.png?1508629154312"/>
+							src="/img/Cyconnect.png"/>
 					</a>
 					{this.props.path !== '/login' &&
 						<button className="button navbar-burger" id="navBurger">
