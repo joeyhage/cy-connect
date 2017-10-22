@@ -3,38 +3,19 @@ const moment = require('moment');
 
 class Home extends React.Component {
 
-	constructor(props) {
-		super(props);
-
-		this.state = {
-			studentOrgs: populateStuorgTable(props.pageProps.stuorgDetails),
-			upcomingEvents: populateEventTable(props.pageProps.stuorgEvents)
-		}
-	}
-
 	render() {
 		return (
 			<div className='container'>
-				<div className="tabs" style={{display: 'block', margin: 'auto', width: '83%'}}>
-					<ul>
-						<li><a href="#upcoming">Your Upcoming Events</a></li>
-						<li><a href="#stuorgs">Your Student Organizations</a></li>
-					</ul>
-				</div>
-				<div className="columns is-mobile" style={{marginTop: '10vh'}}>
-					<div className="column is-10-desktop is-10-tablet is-12-mobile">
-						<h3 id="upcoming" style={style.h3}>Your Upcoming Events</h3>
-						<div className="box">
-							{this.state.upcomingEvents}
-						</div>
+				<div className="columns is-mobile" style={{marginTop: '20px'}}>
+					<div className="column is-1-tablet is-1-mobile"/>
+					<div className="column is-5-desktop is-10-tablet is-10-mobile">
+						<h3 style={style.h3}>Your Upcoming Events</h3>
+						{populateEventTable(this.props.pageProps.stuorgEvents, 0)}
 					</div>
-				</div>
-				<div className="columns is-mobile" style={{marginTop: '5vh'}}>
-					<div className="column is-6-desktop is-8-tablet is-10-mobile">
-						<h3 id="stuorgs" style={style.h3}>Your Student Organizations</h3>
-						<div className="box">
-							{this.state.studentOrgs}
-						</div>
+					<div className="column is-1-desktop is-1-tablet is-1-mobile"/>
+					<div className="column is-5-desktop is-10-tablet is-10-mobile">
+						<h3 style={style.h3}>Your Student Organizations</h3>
+						{populateStuorgTable(this.props.pageProps.stuorgDetails, 0)}
 					</div>
 				</div>
 			</div>
@@ -42,43 +23,60 @@ class Home extends React.Component {
 	}
 }
 
-const populateStuorgTable = stuorgDetails => {
+const populateStuorgTable = (stuorgDetails, startIndex) => {
 	if (stuorgDetails) {
-		return stuorgDetails.map(stuorg => (
-			<tr key={stuorg.stuorgId}>
-				<td>{stuorg.stuorgName}</td>
-				<td>{stuorg.category}</td>
-			</tr>
-		));
-	}
-};
+		const slice = stuorgDetails[startIndex + 5] ? stuorgDetails.slice(startIndex, startIndex + 5) : stuorgDetails;
 
-const populateEventTable = stuorgEvents => {
-	if (stuorgEvents) {
-		return stuorgEvents.map(event => (
-			<div key={event.eventId} className="card">
-				<header className="card-header">
-					<p className="card-header-title">{event.eventName}</p>
-					<a href="#" className="card-header-icon" aria-label="more options">
-						Info
+		return slice.map(stuorg => (
+			<div key={stuorg.stuorgId} className="home card" style={{margin:'20px 0'}}>
+				<header className="card-header" style={{backgroundColor:'#ffd83d'}}>
+					<p className="card-header-title">
+						<span>{stuorg.stuorgName} - {stuorg.category}</span>
+					</p>
+					<a className="card-header-icon" aria-label="details">
+						Details
 						<span className="icon"><i className="fa fa-info-circle" aria-hidden="true"/></span>
 					</a>
 				</header>
-				<div className="card-content">
-					<div className="content">
-						<br/>
-						<time dateTime={event.date}>{moment(event.date).format('MMM D, YY')}</time>
-					</div>
-				</div>
 			</div>
 		));
 	}
 };
 
-const red = '#C21D2f';
+const populateEventTable = (stuorgEvents, startIndex) => {
+	if (stuorgEvents) {
+		const slice = stuorgEvents[startIndex + 5] ? stuorgEvents.slice(startIndex, startIndex + 5) : stuorgEvents;
+
+		return slice.map(event => (
+			<div key={event.eventId} className="home card" style={{margin:'20px 0'}}>
+				<header className="card-header" style={{backgroundColor:'#ffd83d'}}>
+					<p className="card-header-title">
+						<span>{event.eventName} - {moment(event.date).format('MMM D, YYYY')}</span>
+					</p>
+				</header>
+				<div className="card-content">
+					<div className="content">
+						<p style={{fontWeight:'bold'}}>{event.stuorgName}</p>
+						<p><strong>Location:</strong> {event.location}</p>
+						<p className="event-details is-hidden" style={{fontWeight:'bold'}}>Description:</p>
+						<p className="event-details is-hidden">{event.description}</p>
+						<p className="event-details is-hidden"><strong>Cost:</strong> {event.cost}</p>
+					</div>
+				</div>
+				<footer className="card-footer" style={{backgroundColor:'whitesmoke'}}>
+					<a className="card-header-icon" aria-label="details">
+						Details
+						<span className="icon"><i className="fa fa-info-circle" aria-hidden="true"/></span>
+					</a>
+				</footer>
+			</div>
+		));
+	}
+};
+
 const style = {
 	h3: {
-		color: red,
+		color: '#C21D2f',
 		fontWeight: 'bold',
 		fontSize: '20px'
 	}

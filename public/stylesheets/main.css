@@ -43,3 +43,12 @@
         color: #FFF;
     }
 }
+.card-content {
+    padding: .5rem;
+}
+.home.card.is-active .card-content {
+    height: 325px;
+}
+.card-header-icon {
+    cursor: pointer;
+}

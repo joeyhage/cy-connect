@@ -18,7 +18,7 @@ class Login extends React.Component {
 				<div className="columns is-mobile" style={{marginTop:'20vh'}}>
 					<div className="column is-4-desktop is-2-tablet is-1-mobile"/>
 					<div className="column is-4-desktop is-8-tablet is-10-mobile box" >
-						<h1 style={{textAlign: 'center'}}>Login</h1>
+						<h1 style={style.h1}>Login</h1>
 						<form id="login-form">
 							<div className="field">
 								<label className="label" aria-label>Net-ID</label>
@@ -53,6 +53,7 @@ class Login extends React.Component {
 	}
 
 	handleChange({target}) {
+		console.log(target.id);
 		if (target.id === 'netid') {
 			this.setState({netid: target.value});
 		} else {
@@ -60,5 +61,14 @@ class Login extends React.Component {
 		}
 	}
 }
+
+const style = {
+	h1: {
+		color: '#C21D2f',
+		fontWeight: 'bold',
+		fontSize: '28px',
+		textAlign: 'center'
+	}
+};
 
 module.exports = Login;

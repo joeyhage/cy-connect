@@ -6,6 +6,7 @@ class AdminDashboard extends React.Component {
 		super(props);
 
 		this.state = {
+			selectedStuorg: '',
 			stuorgs: populateStuorgs(props.pageProps.stuorgs)
 		}
 	}
@@ -13,7 +14,7 @@ class AdminDashboard extends React.Component {
 	render() {
 		return (
 			<div>
-				<section className="hero  welcome is-small">
+				<section className="hero welcome is-small">
 					<div className="hero-body">
 						<div className="container">
 							<h1 className="title">Hello, {this.props.pageProps.user.firstName}</h1>
@@ -30,14 +31,11 @@ class AdminDashboard extends React.Component {
 								</header>
 								<div className="card-content">
 									<div className="content">
-										<div className="control has-icons-left has-icons-right">
+										<div className="control has-icons-left">
 											<input type="text" className="input is-large" placeholder=""/>
 											<span className="icon is-medium is-left">
-                                            <i className="fa fa-search"/>
-                                        </span>
-											<span className="icon is-medium is-right">
-                                            <i className="fa fa-check"/>
-                                        </span>
+												<i className="fa fa-search"/>
+											</span>
 										</div>
 									</div>
 								</div>
@@ -50,14 +48,11 @@ class AdminDashboard extends React.Component {
 								</header>
 								<div className="card-content">
 									<div className="content">
-										<div className="control has-icons-left has-icons-right">
+										<div className="control has-icons-left">
 											<input type="text" className="input is-large" placeholder=""/>
 											<span className="icon is-medium is-left">
-                                            <i className="fa fa-search"/>
-                                        </span>
-											<span className="icon is-medium is-right">
-                                            <i className="fa fa-check"/>
-                                        </span>
+                                            	<i className="fa fa-search"/>
+                                        	</span>
 										</div>
 									</div>
 								</div>
@@ -69,7 +64,6 @@ class AdminDashboard extends React.Component {
 							<div className="card events-card">
 								<header className="card-header">
 									<p className="card-header-title">Events</p>
-
 								</header>
 								<div className="card-table">
 									<div className="content">

@@ -157,7 +157,8 @@ const getHomePageProps = () => {
 						'SELECT checkin.Event.*, checkin.Stuorg.stuorgName ' +
 						'FROM checkin.Event ' +
 						'INNER JOIN checkin.Stuorg ON checkin.Event.stuorgId = checkin.Stuorg.stuorgId ' +
-						'WHERE checkin.Event.date>=? AND checkin.Event.stuorgId IN ('+stuorgIdSet+')',
+						'WHERE checkin.Event.date>=? AND checkin.Event.stuorgId IN ('+stuorgIdSet+') ' +
+						'ORDER BY checkin.Event.date ASC',
 						[moment().format('YYYY-MM-DD')],
 						(error, results) => {
 							if (error) {

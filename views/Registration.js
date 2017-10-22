@@ -29,21 +29,6 @@ class Registration extends React.Component {
 					</p>
 				</div>
 
-				<div className="field">
-					<label className="label">Position</label>
-					<div className="control">
-						<div className="select">
-							<select>
-								<option>President</option>
-								<option>Vice-President</option>
-								<option>Secretary</option>
-								<option>Treasurer</option>
-								<option>Student Member</option>
-							</select>
-						</div>
-					</div>
-				</div>
-
 				<div className="field is-grouped">
 					<div className="control">
 						<button className="button is-link">Submit</button>
