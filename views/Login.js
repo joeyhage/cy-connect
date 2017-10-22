@@ -15,9 +15,9 @@ class Login extends React.Component {
 	render() {
 		return (
 			<div className='container'>
-				<div className="columns is-mobile">
+				<div className="columns is-mobile" style={{marginTop:'20vh'}}>
 					<div className="column is-4-desktop is-2-tablet is-1-mobile"/>
-					<div className="column is-4-desktop is-8-tablet is-10-mobile box" style={{marginTop:'20vh'}}>
+					<div className="column is-4-desktop is-8-tablet is-10-mobile box" >
 						<h1 style={{textAlign: 'center'}}>Login</h1>
 						<form id="login-form">
 							<div className="field">

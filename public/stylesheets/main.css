@@ -7,11 +7,20 @@
         color: #FFF !important;
     }
     a.navbar-item:hover, a.navbar-item:active, a.navbar-item:active:hover, a.navbar-item.is-active,
-    a.navbar-item.is-active:hover, a.navbar-link:hover, a.navbar-link:active, a.navbar-link:active:hover{
+    a.navbar-item.is-active:hover, a.navbar-link:hover, a.navbar-link:active, a.navbar-link:active:hover {
         color: #000 !important;
+    }
+    a.navbar-item:hover, a.navbar-link:hover {
+        background-color: initial !important;
+    }
+    a.navbar-item.is-active:hover, a.navbar-link.is-active:hover {
+        background-color: #ffd83d !important;
     }
     .navbar-dropdown.is-right {
         background-color: gray !important;
+    }
+    .navbar-item.has-dropdown>.navbar-link {
+        background-color: #C21D2f !important;
     }
 }
 
