@@ -2,13 +2,22 @@ const React = require('react');
 
 class AdminDashboard extends React.Component {
 
+	constructor(props) {
+		super(props);
+
+		console.log(JSON.stringify(props));
+		this.state = {
+			upcomingEvents: populateEventTable(props.pageProps.stuorgEvents)
+		}
+	}
+
 	render() {
 		return (
 			<div>
-				<section className="hero is-info welcome is-small">
+				<section className="hero  welcome is-small">
 					<div className="hero-body">
 						<div className="container">
-							<h1 className="title">Hello, Admin.</h1>
+							<h1 className="title">Hello, {this.props.pageProps.user.firstName}</h1>
 							<h2 className="subtitle">I hope you are having a great day!</h2>
 						</div>
 					</div>
@@ -62,43 +71,13 @@ class AdminDashboard extends React.Component {
 							<div className="card events-card">
 								<header className="card-header">
 									<p className="card-header-title">Events</p>
-									<a href="#" className="card-header-icon" aria-label="more options">
-                                <span className="icon">
-                                    <i className="fa fa-angle-down" aria-hidden="true"/>
-                                </span>
-									</a>
+									
 								</header>
 								<div className="card-table">
 									<div className="content">
 										<table className="table is-fullwidth is-striped">
 											<tbody>
-											<tr>
-												<td width="5%">
-													<i className="fa fa-bell-o"/>
-												</td>
-												<td>Lorum ipsum dolem aire</td>
-												<td>
-													<a className="button is-small is-danger" href="#">Delete</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="5%">
-													<i className="fa fa-bell-o"/>
-												</td>
-												<td>Lorum ipsum dolem aire</td>
-												<td>
-													<a className="button is-small is-danger" href="#">Delete</a>
-												</td>
-											</tr>
-											<tr>
-												<td width="5%">
-													<i className="fa fa-bell-o"/>
-												</td>
-												<td>Lorum ipsum dolem aire</td>
-												<td>
-													<a className="button is-small is-danger" href="#">Delete</a>
-												</td>
-											</tr>
+											 {this.state.upcomingEvents}
 											</tbody>
 										</table>
 									</div>
@@ -124,11 +103,31 @@ class AdminDashboard extends React.Component {
 							</div>
 						</div>
 					</div>
+					<div id="myDiv" style={{marginTop:"40px"}}/>
 				</div>
-				<div id="myDiv"/>
 			</div>
 		);
 	}
 }
 
+const populateEventTable = stuorgEvents => {
+	console.dir(stuorgEvents);
+	if (stuorgEvents) {
+		return stuorgEvents.map((event, index) => (
+			<tr key={event.eventId}>
+				<td width="5%">
+					<i className="fa fa-bell-o"/>
+				</td>
+				<td>{event.eventName}</td>
+				<td>{event.description}</td>
+				<td>
+					<a className="button is-small is-danger" href="#">Delete</a>
+				</td>
+			</tr>
+			)
+		);
+	}
+};
 module.exports = AdminDashboard;
+
+
