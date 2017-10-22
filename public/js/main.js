@@ -41,3 +41,20 @@ document.querySelector('body').addEventListener('click', event => {
 		document.getElementById('navMenu').classList.toggle('is-active');
 	}
 });
+
+var trace1 = {
+  x: ['Overall Attendance', 'Freshman', 'Sophomore','Junior','Senior'],
+  y: [350, 150, 23, 25, 22],
+  marker:{
+    color: ['rgba(222,45,38,0.8)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)', 'rgba(204,204,204,1)']
+  },
+  type: 'bar'
+};
+
+var data = [trace1];
+
+var layout = {
+  title: 'Principal Event - Student Attendance'
+};
+
+Plotly.newPlot('myDiv', data, layout);
