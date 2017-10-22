@@ -16,7 +16,7 @@ class App extends React.Component {
 		return (
 			<html style={{backgroundColor:'#FFF', height:'100%'}}>
 			<head>
-				<title>{this.props.page} - ISU StuOrgs</title>
+				<title>CyConnect - {this.props.page}</title>
 				<meta name="description" content="ISU StuOrg Check-In"/>
 				<link id="favicon" rel="icon" href="/img/Checky-Logo-Small.png" type="image/x-icon"/>
 				<meta charSet="utf-8"/>
