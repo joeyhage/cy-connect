@@ -41,6 +41,7 @@ class AdminDashboard extends React.Component {
 								</div>
 							</div>
 						</div>
+
 						<div className="column is-6">
 							<div className="card">
 								<header className="card-header">
@@ -59,6 +60,14 @@ class AdminDashboard extends React.Component {
 							</div>
 						</div>
 					</div>
+					<h2 className="title"> Clubs </h2>
+					<div className="info-tiles">
+						<div className="title is-vertical is-8">
+							<div className="tile is-ancestor has-text-centered">
+								{this.state.stuorgs}
+							</div>
+						</div>
+					</div>
 					<div className="columns">
 						<div className="column is-12">
 							<div className="card events-card">
@@ -69,18 +78,37 @@ class AdminDashboard extends React.Component {
 									<div className="content">
 										<table className="table is-fullwidth is-striped">
 											<tbody>
-											 {this.state.upcomingEvents}
+											<tr>
+													<td width="5%">
+														<i className="fa fa-bell-o"/>
+													</td>
+													<td>Principal Financial Group</td>
+													<td>
+														<a className="button is-small is-danger" href="#">Delete</a>
+													</td>
+												</tr>
+												<tr>
+													<td width="5%">
+														<i className="fa fa-bell-o"/>
+													</td>
+													<td>Mcdowell LLC</td>
+													<td>
+														<a className="button is-small is-danger" href="#">Delete</a>
+													</td>
+												</tr>
+												<tr>
+													<td width="5%">
+														<i className="fa fa-bell-o"/>
+													</td>
+													<td>Perkins Inc</td>
+													<td>
+														<a className="button is-small is-danger" href="#">Delete</a>
+													</td>
+												</tr>
 											</tbody>
 										</table>
 									</div>
 								</div>
-							</div>
-						</div>
-					</div>
-					<div className="info-tiles">
-						<div className="title is-vertical is-8">
-							<div className="tile is-ancestor has-text-centered">
-								{this.state.stuorgs}
 							</div>
 						</div>
 					</div>
@@ -120,6 +148,6 @@ const populateEventTable = stuorgEvents => {
 		);
 	}
 };
+
+
 module.exports = AdminDashboard;
-
-
